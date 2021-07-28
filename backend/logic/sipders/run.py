@@ -45,7 +45,13 @@ class TaskExecutor(object):
             headers=headers
         )
         html_text = rsp.content.decode("utf-8")
-        print(html_text)
+        xpath_exp = '/html/body/article/div[@class="main"]/section[@class="section_cake"]/ul//li'
+        cake_ele_nodes = self.parse_html(html_text, xpath_exp)
+        for node in cake_ele_nodes:
+            img_xpath = './div[@class="item_info"]/div[@class="item_message"]//a[@class="img_link"]//img/@data-original'
+            ele = node.xpath(img_xpath)
+            print(ele)
+
 
 if __name__ == '__main__':
     from backend.configs import Targets
