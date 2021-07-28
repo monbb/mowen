@@ -11,5 +11,19 @@
     :date created: 2021/7/27
     
 """
+from fake_useragent import UserAgent
 
-TARGET_URL = "https://www.lecake.com"
+try:
+    ua = UserAgent()
+except:
+    ua = UserAgent()
+
+
+class Targets(object):
+
+    LECAKE = "https://www.lecake.com"
+
+    targets = [
+        LECAKE
+    ]
+
