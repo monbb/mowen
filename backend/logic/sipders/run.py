@@ -40,9 +40,7 @@ class TaskExecutor(object):
         xpath_parser = etree.HTML(html)
         return xpath_parser.xpath(xpath)
 
-    def run(self):
-
-        headers = self.set_headers(params=self.headers)
+    def lecake_index(self, headers):
         rsp = requests.get(
             url=self.url,
             headers=headers
@@ -94,6 +92,26 @@ class TaskExecutor(object):
             recommend_reason_info = node.xpath(recommend_xpath)[0].text.strip()  # 推荐原因
             price_xpath = './/div[@class="item_message"]/div[@class="item_detail"]/div[@class="price_wrap"]/p/text()'
             price = node.xpath(price_xpath)[1].strip()  # 价格
+
+    def run(self):
+
+        headers = self.set_headers(params=self.headers)
+
+        self.lecake_index(header)
+
+        second_url = "https://www.lecake.com/GZ/category-0-1.html"
+
+        rsp = requests.get(
+            url=second_url,
+            headers=headers
+        )
+
+        html_text = rsp.content.decode('utf-8')
+
+        xpath = '/html/body/article[@class="container main_goods_list"]//section[@class="p_list_wrap"]/ul//li'
+
+        nodes = self.parse_html(html_text, xpath)
+        print(len(nodes))
 
 
 
