@@ -24,6 +24,7 @@ class TaskExecutor(object):
         self.userAgent = ua.random
         self.cookie = None
         self.headers = headers
+        self.targets = dict()
 
 
     def set_headers(self, params:dict) -> dict:
@@ -93,12 +94,7 @@ class TaskExecutor(object):
             price_xpath = './/div[@class="item_message"]/div[@class="item_detail"]/div[@class="price_wrap"]/p/text()'
             price = node.xpath(price_xpath)[1].strip()  # 价格
 
-    def run(self):
-
-        headers = self.set_headers(params=self.headers)
-
-        self.lecake_index(header)
-
+    def lecake_second_page(self, headers, handler):
         second_url = "https://www.lecake.com/GZ/category-0-1.html"
 
         rsp = requests.get(
@@ -108,10 +104,71 @@ class TaskExecutor(object):
 
         html_text = rsp.content.decode('utf-8')
 
-        xpath = '/html/body/article[@class="container main_goods_list"]//section[@class="p_list_wrap"]/ul//li'
+        xpath = '/html/body/article[@class="container main_goods_list"]//section[@class="p_list_wrap"]/ul//li/a/@href'
 
         nodes = self.parse_html(html_text, xpath)
-        print(len(nodes))
+
+        for link in nodes:
+            self.targets[link] = handler
+
+    def lecake_goods_page(self, headers, url):
+        cookies = {
+            '_zzuid': 'MEd0tLldkc9u',
+            'PHPSESSID': '47ef9e35a768f24c50480a077032f7a3',
+            'Hm_lvt_0aab2028932298cda55c549351d0a22b': '1628062439',
+            'CITY_ALIAS': 'SZ',
+            'CITY_ID': 'SZ_228',
+            'Hm_lpvt_0aab2028932298cda55c549351d0a22b': '1628081506',
+        }
+
+        headers = {
+            'Connection': 'keep-alive',
+            'Pragma': 'no-cache',
+            'Cache-Control': 'no-cache',
+            'sec-ch-ua': '^\\^',
+            'sec-ch-ua-mobile': '?0',
+            'Upgrade-Insecure-Requests': '1',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'Sec-Fetch-Site': 'same-origin',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-User': '?1',
+            'Sec-Fetch-Dest': 'document',
+            'Referer': 'https://www.lecake.com/SZ/category-0-1.html',
+            'Accept-Language': 'zh-CN,zh;q=0.9',
+        }
+
+        url = self.url + url
+        rsp = requests.get(url, headers=headers, cookies=cookies)
+        html_text = rsp.content.decode('utf-8')
+        print(html_text)
+        return
+        xpath = '/html/body/article'
+        root_node = self.parse_html(html_text, xpath)[0]
+        #   1.获取主图url
+        good_image_url_xpath = './/div[@class="goods_img"]/img/@src'
+        print(root_node.xpath(good_image_url_xpath))
+        #   2.获取detail
+        detail_xpath = './div/section[@id="goodsDetail"]'
+        detail_node = root_node.xpath(detail_xpath)[0]
+
+        price_xpath = './/div[@class="clear_fix"]'
+        print(detail_node.xpath(price_xpath))
+
+        # TODO
+        #   3.获取goods_img的url
+
+
+    def run(self):
+
+        headers = self.set_headers(params=self.headers)
+
+        self.lecake_index(header)
+
+        self.lecake_second_page(header, self.lecake_goods_page)
+
+        self.lecake_goods_page(headers, list(self.targets.keys())[0])
+
 
 
 
