@@ -24,6 +24,7 @@ from backend.configs import ua
 class TaskExecutor(object):
 
     def __init__(self, url, headers=None):
+        self.failed_url_list = list()
         self.url = url
         self.userAgent = ua.random
         self.cookie = None
@@ -154,10 +155,15 @@ class TaskExecutor(object):
         ctx = js2py.EvalJs()
         ctx.execute(goods_string)
         result = ctx.goods
+        error = result.error
+        print(error)
+        if error == 1:
+            self.failed_url_list.append(url)
+            return
         # 获取商品详情
         goods_name = result.goodName
         market_price = result.marketPrice
-        main_pic_url = result.pictures[0]
+        main_pic_url = result.pictures
         remind = result.remind
         spec = result.spec
         aboutOrder = result.aboutOrder
@@ -184,7 +190,9 @@ class TaskExecutor(object):
 
         self.lecake_second_page(header, self.lecake_goods_page)
 
-        self.lecake_goods_page(headers, list(self.targets.keys())[0])
+        # self.lecake_goods_page(headers, list(self.targets.keys())[0])
+        for link in self.targets.keys():
+            self.lecake_goods_page(headers, link)
 
 
 
