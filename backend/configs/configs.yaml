@@ -1,0 +1,7 @@
+mongo:
+  host: 'localhost:27017'
+  db: 'lecake-backend'
+  user: 'root'
+  pwd: 'love0518'
+  is_replica: 0
+  replica: ''

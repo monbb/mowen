@@ -77,7 +77,7 @@ class TaskExecutor(object):
             comment_text_xpath = './div[@class="comment_content"]/p[@class="text"]/text()'
             text = node.xpath(comment_text_xpath)[0]  # 评论内容
 
-        # 商品矩阵
+        # HOT商品矩阵
         xpath_exp = '/html/body/article/div[@class="main"]/section[@class="section_cake"]/ul//li'
         cake_ele_nodes = self.parse_html(html_text, xpath_exp)
         for node in cake_ele_nodes:

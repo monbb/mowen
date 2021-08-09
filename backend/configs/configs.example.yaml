@@ -1,0 +1,7 @@
+mongo:
+  host: 'localhost:27017'
+  db: ''
+  user: ''
+  pwd: ''
+  is_replica: 0
+  replica: ''
