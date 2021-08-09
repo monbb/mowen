@@ -11,6 +11,7 @@
     :date created: 2021/7/28
     
 """
+import random
 import re
 
 from bson import ObjectId
@@ -18,7 +19,7 @@ import js2py
 from lxml.html import etree
 import requests
 
-from backend.configs import ua
+from backend.configs import agent_list
 from backend.model.hot_goods import HotGoods
 from backend.model.shuffling_figure_config import ShufflingFigureConfig
 from backend.model.comments import Comments
@@ -32,20 +33,18 @@ class TaskExecutor(object):
         self.hot_list = list()
         self.failed_url_list = list()
         self.url = url
-        self.userAgent = ua.random
+        self.userAgent = random.choice(agent_list)
         self.cookie = None
         self.headers = headers
         self.targets = dict()
 
-
-    def set_headers(self, params:dict) -> dict:
-            headers = {
-                'User-Agent': self.userAgent
-            }
-            if isinstance(params, dict):
-                headers.update(params)
-            return headers
-
+    def set_headers(self, params: dict) -> dict:
+        headers = {
+            'User-Agent': self.userAgent
+        }
+        if isinstance(params, dict):
+            headers.update(params)
+        return headers
 
     @staticmethod
     def parse_html(html: str, xpath: str):
@@ -181,7 +180,7 @@ class TaskExecutor(object):
         rsp = requests.get(url, headers=headers, cookies=cookies)
         html_text = rsp.content.decode('utf-8')
         xpath = '/html/body/script[1]/text()'
-        target_js  = self.parse_html(html_text, xpath)[0]
+        target_js = self.parse_html(html_text, xpath)[0]
         string = target_js.strip()
         reg_exp = r"(var goods = .*?};)"
         re_compile_obj = re.compile(reg_exp, re.S)
@@ -212,11 +211,6 @@ class TaskExecutor(object):
         xpath = '/html/body//div[@class="img"]/img/@src'
         details_urls = self.parse_html(html_text, xpath)
 
-
-
-
-
-
     def run(self):
 
         headers = self.set_headers(params=self.headers)
@@ -230,13 +224,9 @@ class TaskExecutor(object):
             self.lecake_goods_page(headers, link)
 
 
-
-
-
-
-
 if __name__ == '__main__':
     from backend.configs import Targets
+
     url = Targets.LECAKE
     header = {
         "Host": "www.lecake.com"
