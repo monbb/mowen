@@ -154,8 +154,23 @@ class TaskExecutor(object):
         ctx = js2py.EvalJs()
         ctx.execute(goods_string)
         result = ctx.goods
+        # 获取商品详情
         goods_name = result.goodName
         market_price = result.marketPrice
+        main_pic_url = result.pictures[0]
+        remind = result.remind
+        spec = result.spec
+        aboutOrder = result.aboutOrder
+        aboutShipping = result.aboutShipping
+        brief = result.brief
+        dessertShopRecommendReason = result.dessertShopRecommendReason
+        midCategoryName = result.midCategoryName
+        tasteLabel = result.tasteLabel
+        warmHint = result.warmHint
+        # 商品详情图片
+        xpath = '/html/body//div[@class="img"]/img/@src'
+        details_urls = self.parse_html(html_text, xpath)
+
 
 
 
