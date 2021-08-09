@@ -44,7 +44,7 @@ class HotGoods(object):
 
     p_col = Collection(
         COL_NAME, db,
-        read_concern=ReadPreference.PRIMARY_PREFERRED
+        read_preference=ReadPreference.PRIMARY_PREFERRED
     )
 
     s_col = Collection(
