@@ -47,7 +47,13 @@ def get_db(db, host='localhost:27017',
 
 
 class CollectionName(object):
-    LECAKE_BACKEND = "lecake-backend"
+
+    HotGoods = "hot-goods" # 热点商品
+    ShufflingFigureConfig = "shuffling-figure-config" # 首页轮播图配置
+    Customer = "customer" # 用户表
+    Goods = "goods" # 商品
+    Comments = "comments" # 评论
+
 
 
 db = get_db(
