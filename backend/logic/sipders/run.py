@@ -23,11 +23,13 @@ from backend.configs import agent_list
 from backend.model.hot_goods import HotGoods
 from backend.model.shuffling_figure_config import ShufflingFigureConfig
 from backend.model.comments import Comments
+from backend.model.goods import Goods
 
 
 class TaskExecutor(object):
 
     def __init__(self, url, headers=None):
+        self.goods_list = list()
         self.comments = list()
         self.figure_config_list = list()
         self.hot_list = list()
@@ -188,7 +190,6 @@ class TaskExecutor(object):
         ctx = js2py.EvalJs()
         ctx.execute(goods_string)
         result = ctx.goods
-        print(result)
 
         error = result.error
         if error == 1:
@@ -207,9 +208,26 @@ class TaskExecutor(object):
         midCategoryName = result.midCategoryName
         tasteLabel = result.tasteLabel
         warmHint = result.warmHint
+        postId = result.postId
         # 商品详情图片
         xpath = '/html/body//div[@class="img"]/img/@src'
         details_urls = self.parse_html(html_text, xpath)
+        self.goods_list.append({
+            Goods.Field._id : str(ObjectId()),
+            Goods.Field.name: goods_name,
+            Goods.Field.market_price: market_price,
+            Goods.Field.main_pic_url: main_pic_url,
+            Goods.Field.spec: spec,
+            Goods.Field.aboutOrder: aboutOrder,
+            Goods.Field.aboutShipping: aboutShipping,
+            Goods.Field.brief: brief,
+            Goods.Field.dessertShopRecommendReason: dessertShopRecommendReason,
+            Goods.Field.midCategoryName: midCategoryName,
+            Goods.Field.tasteLabel: tasteLabel,
+            Goods.Field.warmHint: warmHint,
+            Goods.Field.postId: postId
+        })
+
 
     def run(self):
 
@@ -222,6 +240,20 @@ class TaskExecutor(object):
         # self.lecake_goods_page(headers, list(self.targets.keys())[0])
         for link in self.targets.keys():
             self.lecake_goods_page(headers, link)
+
+        self.bulk_write_data()
+
+        print("finish")
+
+    def bulk_write_data(self):
+        result = HotGoods.p_col.insert_many(self.hot_list)
+        print(result.inserted_ids)
+        result = Comments.p_col.insert_many(self.comments)
+        print(result.inserted_ids)
+        result = ShufflingFigureConfig.p_col.insert_many(self.figure_config_list)
+        print(result.inserted_ids)
+        result = Goods.p_col.insert_many(self.goods_list)
+        print(result.inserted_ids)
 
 
 if __name__ == '__main__':
