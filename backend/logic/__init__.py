@@ -7,7 +7,7 @@
     Description of this file
     
     :author: yatming
-    :copyright: (c) 2020, Tungee
+    :copyright: (c) 2020
     :date created: 2021/7/28
     
 """

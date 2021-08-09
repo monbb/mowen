@@ -5,3 +5,4 @@ mongo:
   pwd: ''
   is_replica: 1
   replica: ''
+  is_auth: 0

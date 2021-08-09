@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 """
-    hot_goods.py
+    comments.py
     ~~~~~~~~~~~~~~~~~~~~~~~
     
     Description of this file
-    热点商品模型
+    
     :author: yatming
-    :copyright: (c) 2020,
+    :copyright: (c) 2020, Tungee
     :date created: 2021/8/9
     
 """
@@ -19,28 +19,26 @@ from backend.model import (
     db
 )
 
-class HotGoods(object):
+class Comments(object):
     """
     * `_id` (str) - id
-    * `img_url` (str) - 主图片url
-    * `label` (str) - 左上角标签
-    * `tag` (str) - 优惠标签
-    * `title` (str) - 名称
-    * `recommend_reason_info` (str) - 推荐原因
-    * `price` (int) - 价格
+    * `img_url` (str) - 背景图url
+    * `nick_phone` (str) - 假号码
+    * `date` (str) - 日期
+    * `text` (str) - 评论内容
+    * `is_hot` (bool) - 是否热评
     """
 
     class Field(object):
         _id = "_id"
         img_url = "img_url"
-        label = "label"
-        tag = "tag"
-        title = "title"
-        goods_url = "goods_url"
-        recommend_reason_info = "recommend_reason_info"
-        price = "price"
+        nick_phone = "nick_phone"
+        text = "text"
+        date = "date"
+        is_hot = "is_hot"
 
-    COL_NAME = CollectionName.HotGoods
+
+    COL_NAME = CollectionName.Comments
 
     p_col = Collection(
         COL_NAME, db,
@@ -51,4 +49,3 @@ class HotGoods(object):
         COL_NAME, db,
         read_preference=ReadPreference.SECONDARY_PREFERRED
     )
-

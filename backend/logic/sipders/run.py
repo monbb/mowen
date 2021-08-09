@@ -13,17 +13,23 @@
 """
 import re
 
-import execjs
+from bson import ObjectId
 import js2py
 from lxml.html import etree
 import requests
 
 from backend.configs import ua
+from backend.model.hot_goods import HotGoods
+from backend.model.shuffling_figure_config import ShufflingFigureConfig
+from backend.model.comments import Comments
 
 
 class TaskExecutor(object):
 
     def __init__(self, url, headers=None):
+        self.comments = list()
+        self.figure_config_list = list()
+        self.hot_list = list()
         self.failed_url_list = list()
         self.url = url
         self.userAgent = ua.random
@@ -62,6 +68,13 @@ class TaskExecutor(object):
             title = node.xpath(title_xpath)  # title
             sub_title_xpath = './a/div/p[@class="sub_title"]/text()'
             sub_title = node.xpath(sub_title_xpath)  # sub_title
+            self.figure_config_list.append({
+                ShufflingFigureConfig.Field._id: str(ObjectId()),
+                ShufflingFigureConfig.Field.title: title,
+                ShufflingFigureConfig.Field.sub_title: sub_title,
+                ShufflingFigureConfig.Field.figure_url: figure_url
+            })
+
         # 热门评论
         xpath_exp = '/html/body/article/div[@class="main"]/section[@class="comment_section"]/div[@id="comments"]/ul//li//div[@class="comment_item"]'
         hot_comment_nodes = self.parse_html(html_text, xpath_exp)
@@ -76,19 +89,30 @@ class TaskExecutor(object):
             date = nick_info[1].strip()  # 日期
             comment_text_xpath = './div[@class="comment_content"]/p[@class="text"]/text()'
             text = node.xpath(comment_text_xpath)[0]  # 评论内容
+            self.comments.append({
+                Comments.Field._id: str(ObjectId()),
+                Comments.Field.img_url: comment_img_url,
+                Comments.Field.nick_phone: nick_phone,
+                Comments.Field.date: date,
+                Comments.Field.text: text,
+                Comments.Field.is_hot: True
+            })
 
         # HOT商品矩阵
         xpath_exp = '/html/body/article/div[@class="main"]/section[@class="section_cake"]/ul//li'
         cake_ele_nodes = self.parse_html(html_text, xpath_exp)
         for node in cake_ele_nodes:
+            goods_url = self.url + node.xpath('./div[@class="item_info"]/div/a/@href')[0]
             img_xpath = './div[@class="item_info"]/div[@class="item_message"]//a[@class="img_link"]//img/@data-original'
             img_url = node.xpath(img_xpath)[0]  # 首页图片url
             label_message_xpath = './/div[@class="item_message"]/a//b'
             label_info = node.xpath(label_message_xpath)
+            label = None
             if label_info:
                 label = label_info[0].text  # 左上角标签
             tag_xpath = './/div[@class="item_message"]/div[@class="item_detail"]/div[@class="name_wrap"]//div[@class="p_tag"]/span'
             tag_list = node.xpath(tag_xpath)
+            tag = None
             if tag_list:
                 tag = tag_list[0].text  # 优惠标签
             title_xpath = './/div[@class="item_message"]/div[@class="item_detail"]/div[@class="name_wrap"]//h3'
@@ -98,6 +122,16 @@ class TaskExecutor(object):
             recommend_reason_info = node.xpath(recommend_xpath)[0].text.strip()  # 推荐原因
             price_xpath = './/div[@class="item_message"]/div[@class="item_detail"]/div[@class="price_wrap"]/p/text()'
             price = node.xpath(price_xpath)[1].strip()  # 价格
+            self.hot_list.append({
+                HotGoods.Field._id: str(ObjectId()),
+                HotGoods.Field.goods_url: goods_url,
+                HotGoods.Field.img_url: img_url,
+                HotGoods.Field.label: label,
+                HotGoods.Field.tag: tag,
+                HotGoods.Field.title: title,
+                HotGoods.Field.recommend_reason_info: recommend_reason_info,
+                HotGoods.Field.price: price
+            })
 
     def lecake_second_page(self, headers, handler):
         second_url = "https://www.lecake.com/GZ/category-0-1.html"
@@ -155,8 +189,9 @@ class TaskExecutor(object):
         ctx = js2py.EvalJs()
         ctx.execute(goods_string)
         result = ctx.goods
+        print(result)
+
         error = result.error
-        print(error)
         if error == 1:
             self.failed_url_list.append(url)
             return

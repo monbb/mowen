@@ -1,16 +1,17 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 """
-    hot_goods.py
+    shuffling_figure_config.py
     ~~~~~~~~~~~~~~~~~~~~~~~
     
     Description of this file
-    热点商品模型
+    
     :author: yatming
-    :copyright: (c) 2020,
+    :copyright: (c) 2020
     :date created: 2021/8/9
     
 """
+
 from pymongo import ReadPreference
 from pymongo.collection import Collection
 
@@ -19,28 +20,22 @@ from backend.model import (
     db
 )
 
-class HotGoods(object):
+class ShufflingFigureConfig(object):
     """
     * `_id` (str) - id
-    * `img_url` (str) - 主图片url
-    * `label` (str) - 左上角标签
-    * `tag` (str) - 优惠标签
-    * `title` (str) - 名称
-    * `recommend_reason_info` (str) - 推荐原因
-    * `price` (int) - 价格
+    * `figure_url` (str) - 轮播图url
+    * `title` (str) - 主题
+    * `sub_title` (str) - 子主题
     """
 
     class Field(object):
         _id = "_id"
-        img_url = "img_url"
-        label = "label"
-        tag = "tag"
+        figure_url = "figure_url"
         title = "title"
-        goods_url = "goods_url"
-        recommend_reason_info = "recommend_reason_info"
-        price = "price"
+        sub_title = "sub_title"
 
-    COL_NAME = CollectionName.HotGoods
+
+    COL_NAME = CollectionName.ShufflingFigureConfig
 
     p_col = Collection(
         COL_NAME, db,
@@ -51,4 +46,3 @@ class HotGoods(object):
         COL_NAME, db,
         read_preference=ReadPreference.SECONDARY_PREFERRED
     )
-
