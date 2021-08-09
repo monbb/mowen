@@ -11,6 +11,10 @@
     :date created: 2021/7/28
     
 """
+import re
+
+import execjs
+import js2py
 from lxml.html import etree
 import requests
 
@@ -141,22 +145,20 @@ class TaskExecutor(object):
         url = self.url + url
         rsp = requests.get(url, headers=headers, cookies=cookies)
         html_text = rsp.content.decode('utf-8')
-        print(html_text)
-        return
-        xpath = '/html/body/article'
-        root_node = self.parse_html(html_text, xpath)[0]
-        #   1.获取主图url
-        good_image_url_xpath = './/div[@class="goods_img"]/img/@src'
-        print(root_node.xpath(good_image_url_xpath))
-        #   2.获取detail
-        detail_xpath = './div/section[@id="goodsDetail"]'
-        detail_node = root_node.xpath(detail_xpath)[0]
+        xpath = '/html/body/script[1]/text()'
+        target_js  = self.parse_html(html_text, xpath)[0]
+        string = target_js.strip()
+        reg_exp = r"(var goods = .*?};)"
+        re_compile_obj = re.compile(reg_exp, re.S)
+        goods_string = re_compile_obj.findall(string)[0]
+        ctx = js2py.EvalJs()
+        ctx.execute(goods_string)
+        result = ctx.goods
+        goods_name = result.goodName
+        market_price = result.marketPrice
 
-        price_xpath = './/div[@class="clear_fix"]'
-        print(detail_node.xpath(price_xpath))
 
-        # TODO
-        #   3.获取goods_img的url
+
 
 
     def run(self):
