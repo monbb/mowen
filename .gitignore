@@ -109,7 +109,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-comfigs/configs.yaml
+backend/configs/configs.yaml
 
 # Spyder project settings
 .spyderproject
