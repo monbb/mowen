@@ -43,12 +43,12 @@ class HotGoods(object):
     COL_NAME = CollectionName.HotGoods
 
     p_col = Collection(
-        COL_NAME, db,
+        db, COL_NAME,
         read_preference=ReadPreference.PRIMARY_PREFERRED
     )
 
     s_col = Collection(
-        COL_NAME, db,
+        db, COL_NAME,
         read_preference=ReadPreference.SECONDARY_PREFERRED
     )
 

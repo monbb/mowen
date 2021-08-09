@@ -38,11 +38,11 @@ class ShufflingFigureConfig(object):
     COL_NAME = CollectionName.ShufflingFigureConfig
 
     p_col = Collection(
-        COL_NAME, db,
-        read_concern=ReadPreference.PRIMARY_PREFERRED
+        db, COL_NAME,
+        read_preference=ReadPreference.PRIMARY_PREFERRED
     )
 
     s_col = Collection(
-        COL_NAME, db,
+        db, COL_NAME,
         read_preference=ReadPreference.SECONDARY_PREFERRED
     )
