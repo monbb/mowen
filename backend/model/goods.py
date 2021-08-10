@@ -31,6 +31,8 @@ class Goods(object):
         tasteLabel = "tasteLabel"
         warmHint = "warmHint"
         postId = "postId"
+        details = "details"
+        remind = "remind"
 
     COL_NAME = CollectionName.Goods
 

@@ -198,7 +198,7 @@ class TaskExecutor(object):
         # 获取商品详情
         goods_name = result.goodName
         market_price = result.marketPrice
-        main_pic_url = result.pictures
+        main_pic_url = result.pictures[0]
         remind = result.remind
         spec = result.spec
         aboutOrder = result.aboutOrder
@@ -225,7 +225,9 @@ class TaskExecutor(object):
             Goods.Field.midCategoryName: midCategoryName,
             Goods.Field.tasteLabel: tasteLabel,
             Goods.Field.warmHint: warmHint,
-            Goods.Field.postId: postId
+            Goods.Field.postId: postId,
+            Goods.Field.details: details_urls,
+            Goods.Field.remind: remind
         })
 
 
