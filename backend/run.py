@@ -14,6 +14,11 @@
 from gevent import monkey
 monkey.patch_all()
 
+import os
+import sys
+
+sys.path.append(os.getcwd())
+
 from gevent.pywsgi import WSGIServer
 from backend.app import app
 from backend.configs import config_obj
