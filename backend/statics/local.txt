@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8"/>
+        <title>诺心蛋糕官网-生日蛋糕_水果蛋糕_慕斯_芝士蛋糕-LE CAKE蛋糕店诺心蛋糕网上订购</title>
+    <meta name="Keywords" content="蛋糕,生日蛋糕,慕斯蛋糕,蛋糕店,蛋糕网上订购,网上订蛋糕,诺心蛋糕官网"/>
+    <meta name="Description" content="LE CAKE诺心蛋糕官网在线提供蛋糕订购服务,诺心甄选世界各地上等食材主打生日蛋糕,各类水果蛋糕以及慕斯、芝士蛋糕等全民系列口味,已在全国一二线城市投放并开通网上订购.欢迎顾客在线咨询订购蛋糕享免费配送到家。"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="renderer" content="webkit"/>
+    <meta property="wb:webmaster" content="ec5363986c1d9b8a"/>
+    <link rel="shortcut icon" href="/favicon.ico?01" type="image/x-icon">
+    <link rel="stylesheet" href="//newimgcdn.lecake.com/web/styles/base.css?v=2021072103">
+    <link rel="stylesheet" href="//newimgcdn.lecake.com/web/styles/widget.css?v=2021072103">
+    <!--[if lt IE 9]>
+    <script src="//newimgcdn.lecake.com/web/scripts/lib/html5.min.js"></script>
+    <![endif]-->
+    <script>
+        var GlobalConfig = {
+            'baseUrl': 'https://www.lecake.com/',
+            'staticUrl': '//newimgcdn.lecake.com/web/',
+            'cookieDomain': '.lecake.com',
+            'imageRoot': '//imagecdn.lecake.com/postsystem/docroot/images',
+            'staticVersions': '2021072103',
+            'site_env': 'prod',
+            'siteId': 420,
+            'platform': 'web',
+            'nowTime': 1627448250        };
+        var isLecakeCNDomain = false;
+        //用户id
+        var customerId = '';
+        //用户信息
+        var customerInfo = [];
+        //某些商品特殊餐具数量
+        var globalSpecialDinnerware = {"105819":"\u542b2\u628a\u9910\u53c9","105822":"\u542b2\u628a\u9910\u53c9","105909":"\u542b2\u628a\u9910\u53c9","105978":"\u542b2\u628a\u9910\u53c9","106041":"\u5404\u542b2\u628a\u9910\u52fa","106032":"\u542b2\u628a\u9910\u52fa","106038":"\u542b2\u628a\u9910\u52fa","106031":"\u542b2\u628a\u9910\u52fa","106035":"\u542b2\u628a\u9910\u52fa","106071":"\u542b2\u628a\u9910\u52fa","106068":"\u542b2\u628a\u9910\u52fa","107135":"\u542b1\u628a\u9910\u53c9","113568":"\u6bcf\u76d2\u914d1\u628a\u9910\u53c9","113729":"\u6bcf\u76d2\u914d1\u628a\u9910\u53c9","113732":"\u6bcf\u76d2\u914d1\u628a\u9910\u53c9"};
+
+        //partyBox商品
+        var partyBoxGoodsList = null || [];
+    </script>
+    <script src="//newimgcdn.lecake.com/web/scripts/lib/jquery.min.js"></script>
+            <script src="//newimgcdn.lecake.com/web/scripts/lib/vue.min.js"></script>
+        <link href="//newimgcdn.lecake.com/web/styles/swiper.min.css" rel="stylesheet">
+<link href="//newimgcdn.lecake.com/web/styles/home.css?v=2021072103" rel="stylesheet">
+<link href="//newimgcdn.lecake.com/web/styles/passport.css?v=2" rel="stylesheet">
+    <!--HPSTAT start-->
+    <script type="text/javascript">var glbStatConfig={stat_host:"www.lecake.com",click_id: "ME1XiU4UQUCS"};</script>
+<script type="text/javascript" src="//newimgcdn.lecake.com/stat/mystat.js?v=2020062330"></script>    <!--HPSTAT end-->
+</head>
+<body>
+
+<article class="container main_home max_width ">
+    <header class="global_header " id="globalHeader">
+    <div class="header_wrap fix_header">
+                <section class="header_content main_width clear_fix">
+            <a href="/" target="_parent" class="logo_img">
+                <img src="//newimgcdn.lecake.com/web/images/logo.png" class="f_left" alt="">
+            </a>
+            <div class="f_right right_content">
+                <div class="select_city_wrap">
+                    <a class="select_city" href="javascript:void(0)" data-statistics="top_site|站点|1">
+                        <span class="currentCity">广州</span>
+                    </a>
+                                            <a href="/company/address-check.html" target="_blank" class="address_check_link"
+                           data-statistics="top_address_check|查询地址">查询地址</a>
+                                    </div>
+                                    <div class="search_wrap">
+                        <p class="input_wrap">
+                            <a href="javascript:void(0);" class="close_btn" id="closeGlobalTopSearch">关闭</a>
+                            <input type="text"
+                                   value=""
+                                   placeholder="雪域牛乳芝士" class="search_input"
+                                   maxlength="50">
+                        </p>
+                        <button class="search_btn global_search_btn" data-statistics="top_search|搜索">搜索</button>
+                    </div>
+                                <div class="customer_link_wrap">
+                    <a href="/customer/index.html" class="customer_link"
+                       data-statistics="top_customer|顶部用户中心">用户中心</a>
+                    <span class="s"></span>
+                    
+                                    </div>
+                <div class="nav_cart_wrap f_right">
+                    <a href="/cart/index.html" class="nav_cart" data-statistics="nav_carts|购物车">
+                        <strong class="global_cart_num hide">
+                            <b>0</b>
+                        </strong>
+                    </a>
+                    <span class="s"></span>
+                </div>
+            </div>
+                            <nav class="global_nav">
+                    <ul class="nav clear_fix">
+                        <li class=" active">
+                            <a href="/" data-statistics="nav_home|首页">首页</a>
+                        </li>
+                        <li class="">
+                            <a href="/GZ/category-0-1.html" data-statistics="nav_cake|蛋糕">蛋糕</a>
+                        </li>
+                                                <li class="snack_link hide icon_5 ">
+                            <a href="/GZ/category-1000-1.html"
+                               data-statistics="nav_snack|食玩所">食玩所</a>
+                        </li>
+                                                    <li class="hide ">
+                                <a href="/GZ/category-100-1.html"
+                                   data-statistics="nav_toast|吐司">吐司</a>
+                            </li>
+                                                <li class="">
+                            <a href="/GZ/category-5-1.html"
+                               data-statistics="nav_allRegionGift|全国配">全国配</a>
+                        </li>
+                        <li class="have_inner ">
+                            <a href="javascript:void(0)">合作专区</a>
+                            <div class="inner_wrap">
+                                <a href="/shop/bank_list.php" class="inner_item"
+                                   data-statistics="nav_Bank|银行专区">银行活动</a>
+                                                                    <a href="/shop/companyPurchase.php" class="inner_item"
+                                       data-statistics="nav_procurement|企业采购">企业采购</a>
+                                                                <a href="/shop/ncompany/nlogin.php" class="inner_item"
+                                   data-statistics="nav_major_account|大客户区">大客户区</a>
+                                                                                            </div>
+                        </li>
+                        <li class="">
+                            <a href="/company/cake-coupon-exchange.html" data-statistics="nav_cakeCouponExchange|立即兑换">立即兑换</a>
+                        </li>
+                    </ul>
+                </nav>
+                    </section>
+    </div>
+    <div class="global_top_customer" id="globalTopCustomer">
+            <a href="/customer/login.html" data-statistics="nav_login|登录">登录</a>
+        <a href="/customer/register.html" data-statistics="nav_register|注册">注册</a>
+    </div>    <div class="global_top_cart" id="globalTopCart">
+    <div class="loading_wrap" v-if="isLoading">
+        <img src="//newimgcdn.lecake.com/web//images/loading.gif">
+    </div>
+    <template v-else-if="itemCount>0">
+        <ul class="goods_list">
+            <li class="goods_item clear_fix" v-for="item of goodsList" :key="item.sku_id">
+                <div class="img_wrap f_left">
+                    <img :src="item.main_pic|mainPic" :alt="item.goods_name">
+                </div>
+                <div class="goods_detail">
+                    <h2 class="no_wrap">
+                        {{item.goods_name}}
+                        <a href="javascript:void(0)" class="delete_btn" @click="deleteItem(item.sku_id)"></a>
+                    </h2>
+                    <h3>{{item.display_spec}}</h3>
+                    <div class="price_wrap">
+                        <p v-if="item.need_points>0">
+                            积分价格
+                            <strong>{{item.need_points}}</strong>
+                        </p>
+                        <p class="new_price">￥<strong>{{item.sale_price|salePrice}}</strong></p>
+                        <!--aha价-->
+                        <p class="vip_price" v-if="item.vipPrice">
+                            ￥<strong>{{item.vipPrice|salePrice}}</strong>
+                        </p>
+                        <template v-else>
+                            <!--心享价-->
+                            <p class="pass_card_price" v-if="item.passcard_price">
+                                ￥<strong>{{item.passcard_price|salePrice}}</strong>
+                            </p>
+                            <p class="markup_price" v-if="item.preferentialPrice>0 && !item.passcard_price>0">
+                                ￥<strong>{{item.preferentialPrice|salePrice}}</strong>
+                            </p>
+                        </template>
+                        <p class="count">x{{item.amount}}</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="cart_bottom">
+            <p>共计{{itemCount}}件商品</p>
+            <p class="total_price">
+                ￥<strong>{{(totalPrice-discountsPrice)|salePrice}}</strong>
+            </p>
+            <a href="/cart/index.html">去购物车结算</a>
+        </div>
+    </template>
+    <div class="no_content" v-else>
+        购物车中还没有商品，赶紧选购吧
+    </div>
+</div>
+</header>            <div class="main">
+            <section class="banner homeBanner swiper-container" id="bannerSwiper">
+    <ul class="swiper-wrapper">
+                    <li class="slider_item swiper-slide">
+                <a style="display: block;" href="https://www.lecake.com/SH/category-0-1.html"
+                   data-statistics="home_banner_1|首页顶部banner_https://www.lecake.com/SH/category-0-1.html">
+                    <img src="https://imagecdn.lapetit.cn/postsystem/docroot/images/promotion/202107/D189BF1248A41B4022619BA3C2359B22.jpg">
+                    <div class="title" style="color: #ffffff;">
+                        <p class="main_title">甜蜜有礼 好味双享</p>
+                        <p class="sub_title">正价购蛋糕 赠￥336原味巴斯克</p>
+                    </div>
+                </a>
+                            </li>
+                    <li class="slider_item swiper-slide">
+                <a style="display: block;" href="https://www.lecake.com/shop/goods-114785.html"
+                   data-statistics="home_banner_2|首页顶部banner_http://www.lecake.com/shop/goods-114785.html">
+                    <img src="https://imagecdn.lapetit.cn/postsystem/docroot/images/promotion/202107/F83FDCE07943FC01267888FE114BF8BA.jpg">
+                    <div class="title" style="color: #ffffff;">
+                        <p class="main_title">「魔」力控卡  轻爽好「芒椰」</p>
+                        <p class="sub_title">夏日限定  芒甜椰香</p>
+                    </div>
+                </a>
+                            </li>
+                    <li class="slider_item swiper-slide">
+                <a style="display: block;" href="https://www.lecake.com/shop/goods-114864.html"
+                   data-statistics="home_banner_3|首页顶部banner_http://www.lecake.com/shop/goods-114864.html">
+                    <img src="https://imagecdn.lapetit.cn/postsystem/docroot/images/promotion/202107/653634D059AE8C80C70B1A23AE43FB9C.jpg">
+                    <div class="title" style="color: #;">
+                        <p class="main_title"></p>
+                        <p class="sub_title"></p>
+                    </div>
+                </a>
+                            </li>
+                    <li class="slider_item swiper-slide">
+                <a style="display: block;" href="https://www.lecake.com/topic/index.html?uid=19IJblz53"
+                   data-statistics="home_banner_4|首页顶部banner_https://www.lecake.com/topic/index.html?uid=19IJblz53">
+                    <img src="https://imagecdn.lapetit.cn/postsystem/docroot/images/promotion/202010/9E66B32923D67C1E9851062ABDB3F65D.jpg">
+                    <div class="title" style="color: #d31a18;">
+                        <p class="main_title">盛夏7月 有你真甜</p>
+                        <p class="sub_title">多款人气蛋糕 享限时75折</p>
+                    </div>
+                </a>
+                            </li>
+                    <li class="slider_item swiper-slide">
+                <a style="display: block;" href="https://www.lecake.com/shop/goods-114605.html"
+                   data-statistics="home_banner_5|首页顶部banner_https://www.lecake.com/shop/goods-114605.html">
+                    <img src="https://imagecdn.lapetit.cn/postsystem/docroot/images/promotion/202104/66604045099918D92C2886984069561A.jpg">
+                    <div class="title" style="color: #;">
+                        <p class="main_title"></p>
+                        <p class="sub_title"></p>
+                    </div>
+                </a>
+                            </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+    </section>            
+<div class="section_aha">
+    <div class="inner">
+        <div class="logo_wrap">
+            <img src="//newimgcdn.lecake.com/web/images/home/ahaLogo.png?1" alt="">
+        </div>
+        <div class="content">
+                            <p>尊贵礼遇享不停，升级aha会员</p>
+                <p>预计可省¥358+，<a href="/aha/index.html" class="more">了解更多</a></p>
+                    </div>
+        <div class="btn_wrap">
+            <a class="btn" href="/aha/index.html">
+                                     立即开通 ¥99/年                            </a>
+        </div>
+        <!--
+        <div class="bg_cake">
+            <img src="//newimgcdn.lecake.com/web/images/home/aha_cakeBg.png" alt="">
+        </div>
+        -->
+        <div class="bg_aha_rights">
+            <img src="//newimgcdn.lecake.com/web/images/home/ahaRights1.png?2021022501" alt="">
+        </div>
+        <a href="/aha/index.html" class="calender_wrap hide">
+            <div class="icon_calender">
+                <img src="//newimgcdn.lecake.com/web/images/home/icon_calender.png" alt="">
+            </div>
+            <div class="info">
+                <p class="title">08/05 超级会员日</p>
+                <p>爆款蛋糕低至¥128</p>
+                <p>*每月第一个周四</p>
+            </div>
+        </a>
+    </div>
+</div>
+            
+<section class="section_resource" id="resourceWrap">
+    <div class="inner clear_fix">
+                    <div class="speed_banner">
+                <a href="https://www.lecake.com/shop/goods-114285.html">
+                    <img src="https://imagecdn.lapetit.cn/postsystem/docroot/images/promotion/202105/A48CDD18107A4F7C050F6D4E7E0A418E.jpg" alt="">
+                </a>
+            </div>
+        
+        <div class="resource">
+            <div class="swiper-container" id="noCarousel">
+                <div class="swiper-wrapper">
+                                            <div class="swiper-slide"
+                             data-id="1"
+                             data-bgColor="ffffff"
+                             data-fontColor="000000"
+                             data-title="新人领券"
+                             data-subTitle=""
+                             data-linkUrl="https://www.lecake.com/shop/help-1011.html">
+                            <a style="display: block;"
+                               href="https://www.lecake.com/shop/help-1011.html"
+                               data-statistics="home_slide_resource_1|首页推荐资源位_https://www.lecake.com/shop/help-1011.html">
+                                <img src="https://imagecdn.lapetit.cn/postsystem/docroot/images/promotion/202104/2C3E9A70EDBF09D2A4484A87E2CF2620.jpg" alt="">
+                            </a>
+                        </div>
+                                    </div>
+                            </div>
+        </div>
+    </div>
+</section>            <!-- 全额返 -->
+                            <section class="section_cash_back">
+    <div class="inner clear_fix">
+        <div class="header f_left">
+            <div class="img_title">
+                <img src="//newimgcdn.lecake.com/web/images/home/cashBack/title.png" alt="">
+            </div>
+            <a href="/cash-back/topic.html" class="img_more">
+                <img src="//newimgcdn.lecake.com/web/images/home/cashBack/btn_more.png" alt="">
+            </a>
+        </div>
+        <div class="goods_list f_left clear_fix">
+                            <div class="item f_left">
+                    <a class="img_link auto_height" href="/shop/goods-114121.html">
+                        <div class="img_wrap auto_pos">
+                            <img src="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202104/24183/list_24183.jpg?v=1618150911">
+                        </div>
+                    </a>
+                    <div class="bottom_btn flex">
+                        <a href="/shop/goods-114121.html" class="btn_left flex_item">¥258</a>
+                        <a href="/shop/goods-114121.html" class="btn_right flex_item">折合0元<i></i></a>
+                    </div>
+                </div>
+                            <div class="item f_left">
+                    <a class="img_link auto_height" href="/shop/goods-114145.html">
+                        <div class="img_wrap auto_pos">
+                            <img src="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202104/24207/list_24207.jpg?v=1621995409">
+                        </div>
+                    </a>
+                    <div class="bottom_btn flex">
+                        <a href="/shop/goods-114145.html" class="btn_left flex_item">¥218</a>
+                        <a href="/shop/goods-114145.html" class="btn_right flex_item">折合0元<i></i></a>
+                    </div>
+                </div>
+                            <div class="item f_left">
+                    <a class="img_link auto_height" href="/shop/goods-112957.html">
+                        <div class="img_wrap auto_pos">
+                            <img src="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202006/23019/list_23019.jpg?v=1594203879">
+                        </div>
+                    </a>
+                    <div class="bottom_btn flex">
+                        <a href="/shop/goods-112957.html" class="btn_left flex_item">¥218</a>
+                        <a href="/shop/goods-112957.html" class="btn_right flex_item">折合0元<i></i></a>
+                    </div>
+                </div>
+                    </div>
+    </div>
+</section>                        <section class="section_cake">
+    
+<ul class="p_list_new clear_fix ">
+            <li class="common_list_item  no_height  "
+            data-id="100801"
+            data-isNeedLinkToDetail=""
+            data-SettlementOnly=""
+            data-hideSpec=""
+            data-items=''
+            data-goodsSweet=""
+            data-goodsTasteTxt="雪域口味"
+        >
+            <div class="item_info">
+                <div class="item_message">
+                    <a href="/shop/goods-100801.html" target="_blank" class="img_link"
+                                                    data-statistics="home_goods_list_cake_img_1|点击商品图片跳转商品详情页_雪域牛乳芝士"
+                                                                            data-clickstr="Sm7nOrIWCX2kA1UkAGkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                               style="overflow: initial;"
+                    >
+                        <div class="auto_pos">
+                                                                                                <img class="lazy"
+                                         src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="//imagecdn.lapetit.cn/postsystem/docroot/images/goods/201212/10800/list_10800.jpg"
+                                    />
+                                                                                                                        <p class="corner_mark">
+                                    <b>招牌</b>
+                                </p>
+                                                                                                            </div>
+                    </a>
+                    <div class="item_detail">
+                        <div class="name_wrap">
+                            <div class="p_tag">
+                                                                                            </div>
+                            <a href="/shop/goods-100801.html" target="_blank"
+                                                                    data-statistics="home_goods_list_cake_title_1|点击商品名称跳转商品详情页_雪域牛乳芝士"
+                                                                                                    data-clickstr="Sm7nOrIWCX2kA1UkAGkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                                            >
+                                <h3 class="item_name no_wrap">雪域牛乳芝士</h3>
+                            </a>
+                                                            <div class="recommend_reason no_wrap">
+                                    经典之作 热销多年                                </div>
+                                                    </div>
+                        <div class="price_wrap">
+                            <p class="new_price">
+                                <small>¥</small>218                            </p>
+                                                        
+                                                    </div>
+                                            </div>
+                </div>
+            </div>
+        </li>
+            <li class="common_list_item  no_height  "
+            data-id="114785"
+            data-isNeedLinkToDetail=""
+            data-SettlementOnly=""
+            data-hideSpec=""
+            data-items=''
+            data-goodsSweet=""
+            data-goodsTasteTxt="鲜果口味"
+        >
+            <div class="item_info">
+                <div class="item_message">
+                    <a href="/shop/goods-114785.html" target="_blank" class="img_link"
+                                                    data-statistics="home_goods_list_cake_img_2|点击商品图片跳转商品详情页_好芒椰魔芋蛋糕"
+                                                                            data-clickstr="Sm7nOrIWCX2lB1QsBGkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                               style="overflow: initial;"
+                    >
+                        <div class="auto_pos">
+                                                                                                <img class="lazy"
+                                         src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="//imagecdn.lapetit.cn/postsystem/docroot/images/goods/202107/24847/list_24847.jpg?v=1626412556"
+                                    />
+                                                                                                                        <p class="corner_mark">
+                                    <b>NEW</b>
+                                </p>
+                                                                                                            </div>
+                    </a>
+                    <div class="item_detail">
+                        <div class="name_wrap">
+                            <div class="p_tag">
+                                                                                            </div>
+                            <a href="/shop/goods-114785.html" target="_blank"
+                                                                    data-statistics="home_goods_list_cake_title_2|点击商品名称跳转商品详情页_好芒椰魔芋蛋糕"
+                                                                                                    data-clickstr="Sm7nOrIWCX2lB1QsBGkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                                            >
+                                <h3 class="item_name no_wrap">好芒椰魔芋蛋糕</h3>
+                            </a>
+                                                            <div class="recommend_reason no_wrap">
+                                    「魔」力控卡，轻爽好「芒椰」                                </div>
+                                                    </div>
+                        <div class="price_wrap">
+                            <p class="new_price">
+                                <small>¥</small>258                            </p>
+                                                        
+                                                    </div>
+                                            </div>
+                </div>
+            </div>
+        </li>
+            <li class="common_list_item  no_height  "
+            data-id="114145"
+            data-isNeedLinkToDetail=""
+            data-SettlementOnly=""
+            data-hideSpec=""
+            data-items=''
+            data-goodsSweet=""
+            data-goodsTasteTxt="奶油口味"
+        >
+            <div class="item_info">
+                <div class="item_message">
+                    <a href="/shop/goods-114145.html" target="_blank" class="img_link"
+                                                    data-statistics="home_goods_list_cake_img_3|点击商品图片跳转商品详情页_芋你啵啵"
+                                                                            data-clickstr="Sm7nOrIWCX2lB12oBGkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                               style="overflow: initial;"
+                    >
+                        <div class="auto_pos">
+                                                                                                <img class="lazy"
+                                         src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="//imagecdn.lapetit.cn/postsystem/docroot/images/goods/202104/24207/list_24207.jpg"
+                                    />
+                                                                                                                        <p class="corner_mark">
+                                    <b>人气爆款</b>
+                                </p>
+                                                                                                            </div>
+                    </a>
+                    <div class="item_detail">
+                        <div class="name_wrap">
+                            <div class="p_tag">
+                                                                    <!--当前商品参与全额返并且当前用户符合全额返条件显示全额返标签-->
+                                                                                                                        <span class="tag">生日会 限时75折</span>
+                                                                                                                                                                                                            </div>
+                            <a href="/shop/goods-114145.html" target="_blank"
+                                                                    data-statistics="home_goods_list_cake_title_3|点击商品名称跳转商品详情页_芋你啵啵"
+                                                                                                    data-clickstr="Sm7nOrIWCX2lB12oBGkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                                            >
+                                <h3 class="item_name no_wrap">芋你啵啵</h3>
+                            </a>
+                                                            <div class="recommend_reason no_wrap">
+                                    “啵啵”一下 芋见满分香甜                                </div>
+                                                    </div>
+                        <div class="price_wrap">
+                            <p class="new_price">
+                                <small>¥</small>218                            </p>
+                                                        
+                                                    </div>
+                                            </div>
+                </div>
+            </div>
+        </li>
+            <li class="common_list_item  no_height  "
+            data-id="103283"
+            data-isNeedLinkToDetail=""
+            data-SettlementOnly=""
+            data-hideSpec=""
+            data-items=''
+            data-goodsSweet=""
+            data-goodsTasteTxt="鲜果口味"
+        >
+            <div class="item_info">
+                <div class="item_message">
+                    <a href="/shop/goods-103283.html" target="_blank" class="img_link"
+                                                    data-statistics="home_goods_list_cake_img_4|点击商品图片跳转商品详情页_杨枝甘露"
+                                                                            data-clickstr="Sm7nOrIWCX2kAn6sAmkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                               style="overflow: initial;"
+                    >
+                        <div class="auto_pos">
+                                                                                                <img class="lazy"
+                                         src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="//imagecdn.lapetit.cn/postsystem/docroot/images/promotion/202107/8D4BB6F9743C9714513CAEE61C7768BF.jpg"
+                                    />
+                                                                                                                                                                        </div>
+                    </a>
+                    <div class="item_detail">
+                        <div class="name_wrap">
+                            <div class="p_tag">
+                                                                                            </div>
+                            <a href="/shop/goods-103283.html" target="_blank"
+                                                                    data-statistics="home_goods_list_cake_title_4|点击商品名称跳转商品详情页_杨枝甘露"
+                                                                                                    data-clickstr="Sm7nOrIWCX2kAn6sAmkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                                            >
+                                <h3 class="item_name no_wrap">杨枝甘露</h3>
+                            </a>
+                                                            <div class="recommend_reason no_wrap">
+                                    口碑超人气  清爽来袭                                </div>
+                                                    </div>
+                        <div class="price_wrap">
+                            <p class="new_price">
+                                <small>¥</small>218                            </p>
+                                                        
+                                                    </div>
+                                            </div>
+                </div>
+            </div>
+        </li>
+            <li class="common_list_item  no_height  "
+            data-id="102226"
+            data-isNeedLinkToDetail=""
+            data-SettlementOnly=""
+            data-hideSpec=""
+            data-items=''
+            data-goodsSweet=""
+            data-goodsTasteTxt="慕斯口味"
+        >
+            <div class="item_info">
+                <div class="item_message">
+                    <a href="/shop/goods-102226.html" target="_blank" class="img_link"
+                                                    data-statistics="home_goods_list_cake_img_5|点击商品图片跳转商品详情页_环游世界"
+                                                                            data-clickstr="Sm7nOrIWCX2kAX6mBWkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                               style="overflow: initial;"
+                    >
+                        <div class="auto_pos">
+                                                                                                <img class="lazy"
+                                         src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="//imagecdn.lapetit.cn/postsystem/docroot/images/goods/201310/12287/list_12287.jpg?v=1619490009"
+                                    />
+                                                                                                                        <p class="corner_mark">
+                                    <b>新人打卡</b>
+                                </p>
+                                                                                                            </div>
+                    </a>
+                    <div class="item_detail">
+                        <div class="name_wrap">
+                            <div class="p_tag">
+                                                                                            </div>
+                            <a href="/shop/goods-102226.html" target="_blank"
+                                                                    data-statistics="home_goods_list_cake_title_5|点击商品名称跳转商品详情页_环游世界"
+                                                                                                    data-clickstr="Sm7nOrIWCX2kAX6mBWkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                                            >
+                                <h3 class="item_name no_wrap">环游世界</h3>
+                            </a>
+                                                            <div class="recommend_reason no_wrap">
+                                    五星好评 9种口味一次过瘾                                </div>
+                                                    </div>
+                        <div class="price_wrap">
+                            <p class="new_price">
+                                <small>¥</small>258                            </p>
+                                                        
+                                                    </div>
+                                            </div>
+                </div>
+            </div>
+        </li>
+            <li class="common_list_item  no_height  "
+            data-id="114211"
+            data-isNeedLinkToDetail=""
+            data-SettlementOnly=""
+            data-hideSpec=""
+            data-items=''
+            data-goodsSweet=""
+            data-goodsTasteTxt="慕斯口味"
+        >
+            <div class="item_info">
+                <div class="item_message">
+                    <a href="/shop/goods-114211.html" target="_blank" class="img_link"
+                                                    data-statistics="home_goods_list_cake_img_6|点击商品图片跳转商品详情页_玫瑰星河"
+                                                                            data-clickstr="Sm7nOrIWCX2lB16lAGkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                               style="overflow: initial;"
+                    >
+                        <div class="auto_pos">
+                                                                                                <img class="lazy"
+                                         src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="//imagecdn.lapetit.cn/postsystem/docroot/images/goods/202104/24273/list_24273.jpg?v=1618389347"
+                                    />
+                                                                                                                        <p class="corner_mark">
+                                    <b>人气新品</b>
+                                </p>
+                                                                                                            </div>
+                    </a>
+                    <div class="item_detail">
+                        <div class="name_wrap">
+                            <div class="p_tag">
+                                                                                            </div>
+                            <a href="/shop/goods-114211.html" target="_blank"
+                                                                    data-statistics="home_goods_list_cake_title_6|点击商品名称跳转商品详情页_玫瑰星河"
+                                                                                                    data-clickstr="Sm7nOrIWCX2lB16lAGkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                                            >
+                                <h3 class="item_name no_wrap">玫瑰星河</h3>
+                            </a>
+                                                            <div class="recommend_reason no_wrap">
+                                    玫瑰盛放 为爱“花”心思                                </div>
+                                                    </div>
+                        <div class="price_wrap">
+                            <p class="new_price">
+                                <small>¥</small>298                            </p>
+                                                        
+                                                    </div>
+                                            </div>
+                </div>
+            </div>
+        </li>
+            <li class="common_list_item  no_height  "
+            data-id="112957"
+            data-isNeedLinkToDetail=""
+            data-SettlementOnly=""
+            data-hideSpec=""
+            data-items=''
+            data-goodsSweet=""
+            data-goodsTasteTxt="芝士口味"
+        >
+            <div class="item_info">
+                <div class="item_message">
+                    <a href="/shop/goods-112957.html" target="_blank" class="img_link"
+                                                    data-statistics="home_goods_list_cake_img_7|点击商品图片跳转商品详情页_巴斯克流心"
+                                                                            data-clickstr="Sm7nOrIWCX2lAXYpBmkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                               style="overflow: initial;"
+                    >
+                        <div class="auto_pos">
+                                                                                                <img class="lazy"
+                                         src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="//imagecdn.lapetit.cn/postsystem/docroot/images/goods/202006/23019/list_23019.jpg?v=1594203879"
+                                    />
+                                                                                                                        <p class="corner_mark">
+                                    <b>人气爆款</b>
+                                </p>
+                                                                                                            </div>
+                    </a>
+                    <div class="item_detail">
+                        <div class="name_wrap">
+                            <div class="p_tag">
+                                                                                            </div>
+                            <a href="/shop/goods-112957.html" target="_blank"
+                                                                    data-statistics="home_goods_list_cake_title_7|点击商品名称跳转商品详情页_巴斯克流心"
+                                                                                                    data-clickstr="Sm7nOrIWCX2lAXYpBmkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                                            >
+                                <h3 class="item_name no_wrap">巴斯克流心</h3>
+                            </a>
+                                                            <div class="recommend_reason no_wrap">
+                                    流心诱惑！风靡Ins的芝士蛋糕                                </div>
+                                                    </div>
+                        <div class="price_wrap">
+                            <p class="new_price">
+                                <small>¥</small>218                            </p>
+                                                        
+                                                    </div>
+                                            </div>
+                </div>
+            </div>
+        </li>
+            <li class="common_list_item  no_height  "
+            data-id="114651"
+            data-isNeedLinkToDetail=""
+            data-SettlementOnly=""
+            data-hideSpec=""
+            data-items=''
+            data-goodsSweet=""
+            data-goodsTasteTxt="鲜果口味"
+        >
+            <div class="item_info">
+                <div class="item_message">
+                    <a href="/shop/goods-114651.html" target="_blank" class="img_link"
+                                                    data-statistics="home_goods_list_cake_img_8|点击商品图片跳转商品详情页_夏日芒芒套餐"
+                                                                            data-clickstr="Sm7nOrIWCX2lB1MpAGkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                               style="overflow: initial;"
+                    >
+                        <div class="auto_pos">
+                                                                                                <img class="lazy"
+                                         src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="//imagecdn.lapetit.cn/postsystem/docroot/images/goods/202106/24713/list_24713.jpg?v=1625559549"
+                                    />
+                                                                                                                                                                        </div>
+                    </a>
+                    <div class="item_detail">
+                        <div class="name_wrap">
+                            <div class="p_tag">
+                                                                    <!--当前商品参与全额返并且当前用户符合全额返条件显示全额返标签-->
+                                                                                                                        <span class="tag">限时立减30元</span>
+                                                                                                                                                                                                            </div>
+                            <a href="/shop/goods-114651.html" target="_blank"
+                                                                    data-statistics="home_goods_list_cake_title_8|点击商品名称跳转商品详情页_夏日芒芒套餐"
+                                                                                                    data-clickstr="Sm7nOrIWCX2lB1MpAGkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                                            >
+                                <h3 class="item_name no_wrap">夏日芒芒套餐</h3>
+                            </a>
+                                                            <div class="recommend_reason no_wrap">
+                                    口碑超人气  清爽来袭                                </div>
+                                                    </div>
+                        <div class="price_wrap">
+                            <p class="new_price">
+                                <small>¥</small>298                            </p>
+                                                        
+                                                    </div>
+                                            </div>
+                </div>
+            </div>
+        </li>
+            <li class="common_list_item  no_height  "
+            data-id="114645"
+            data-isNeedLinkToDetail=""
+            data-SettlementOnly=""
+            data-hideSpec=""
+            data-items=''
+            data-goodsSweet=""
+            data-goodsTasteTxt="雪域口味"
+        >
+            <div class="item_info">
+                <div class="item_message">
+                    <a href="/shop/goods-114645.html" target="_blank" class="img_link"
+                                                    data-statistics="home_goods_list_cake_img_9|点击商品图片跳转商品详情页_王牌雪域套餐"
+                                                                            data-clickstr="Sm7nOrIWCX2lB1MoBGkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                               style="overflow: initial;"
+                    >
+                        <div class="auto_pos">
+                                                                                                <img class="lazy"
+                                         src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="//imagecdn.lapetit.cn/postsystem/docroot/images/goods/202106/24707/list_24707.jpg?v=1625556689"
+                                    />
+                                                                                                                                                                        </div>
+                    </a>
+                    <div class="item_detail">
+                        <div class="name_wrap">
+                            <div class="p_tag">
+                                                                    <!--当前商品参与全额返并且当前用户符合全额返条件显示全额返标签-->
+                                                                                                                        <span class="tag">限时立减30元</span>
+                                                                                                                                                                                                            </div>
+                            <a href="/shop/goods-114645.html" target="_blank"
+                                                                    data-statistics="home_goods_list_cake_title_9|点击商品名称跳转商品详情页_王牌雪域套餐"
+                                                                                                    data-clickstr="Sm7nOrIWCX2lB1MoBGkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                                            >
+                                <h3 class="item_name no_wrap">王牌雪域套餐</h3>
+                            </a>
+                                                            <div class="recommend_reason no_wrap">
+                                    经典之作 热销多年                                </div>
+                                                    </div>
+                        <div class="price_wrap">
+                            <p class="new_price">
+                                <small>¥</small>298                            </p>
+                                                        
+                                                    </div>
+                                            </div>
+                </div>
+            </div>
+        </li>
+            <li class="common_list_item  no_height  "
+            data-id="113892"
+            data-isNeedLinkToDetail=""
+            data-SettlementOnly=""
+            data-hideSpec=""
+            data-items=''
+            data-goodsSweet=""
+            data-goodsTasteTxt="慕斯口味"
+        >
+            <div class="item_info">
+                <div class="item_message">
+                    <a href="/shop/goods-113892.html" target="_blank" class="img_link"
+                                                    data-statistics="home_goods_list_cake_img_10|点击商品图片跳转商品详情页_福禄寿禧"
+                                                                            data-clickstr="Sm7nOrIWCX2lAnUtAWkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                               style="overflow: initial;"
+                    >
+                        <div class="auto_pos">
+                                                                                                <img class="lazy"
+                                         src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="//imagecdn.lapetit.cn/postsystem/docroot/images/goods/202101/23954/list_23954.jpg?v=1615449811"
+                                    />
+                                                                                                                        <p class="corner_mark">
+                                    <b>木糖醇</b>
+                                </p>
+                                                                                                            </div>
+                    </a>
+                    <div class="item_detail">
+                        <div class="name_wrap">
+                            <div class="p_tag">
+                                                                    <!--当前商品参与全额返并且当前用户符合全额返条件显示全额返标签-->
+                                                                                                                                                                                            <span class="vip_price_tag">专享价</span>
+                                                                                                                                </div>
+                            <a href="/shop/goods-113892.html" target="_blank"
+                                                                    data-statistics="home_goods_list_cake_title_10|点击商品名称跳转商品详情页_福禄寿禧"
+                                                                                                    data-clickstr="Sm7nOrIWCX2lAnUtAWkWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                                            >
+                                <h3 class="item_name no_wrap">福禄寿禧</h3>
+                            </a>
+                                                            <div class="recommend_reason no_wrap">
+                                    蟠桃献瑞 贴心低甜木糖醇                                </div>
+                                                    </div>
+                        <div class="price_wrap">
+                            <p class="new_price">
+                                <small>¥</small>388                            </p>
+                                                        
+                                                    </div>
+                                            </div>
+                </div>
+            </div>
+        </li>
+            <li class="common_list_item  no_height  "
+            data-id="114280"
+            data-isNeedLinkToDetail=""
+            data-SettlementOnly=""
+            data-hideSpec=""
+            data-items=''
+            data-goodsSweet=""
+            data-goodsTasteTxt="慕斯口味"
+        >
+            <div class="item_info">
+                <div class="item_message">
+                    <a href="/shop/goods-114280.html" target="_blank" class="img_link"
+                                                    data-statistics="home_goods_list_cake_img_11|点击商品图片跳转商品详情页_白玉麻麻"
+                                                                            data-clickstr="Sm7nOrIWCX2lB16sA0kWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                               style="overflow: initial;"
+                    >
+                        <div class="auto_pos">
+                                                                                                <img class="lazy"
+                                         src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="//imagecdn.lapetit.cn/postsystem/docroot/images/goods/202104/24342/list_24342.jpg?v=1618841093"
+                                    />
+                                                                                                                        <p class="corner_mark">
+                                    <b>人气新品</b>
+                                </p>
+                                                                                                            </div>
+                    </a>
+                    <div class="item_detail">
+                        <div class="name_wrap">
+                            <div class="p_tag">
+                                                                                            </div>
+                            <a href="/shop/goods-114280.html" target="_blank"
+                                                                    data-statistics="home_goods_list_cake_title_11|点击商品名称跳转商品详情页_白玉麻麻"
+                                                                                                    data-clickstr="Sm7nOrIWCX2lB16sA0kWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                                            >
+                                <h3 class="item_name no_wrap">白玉麻麻</h3>
+                            </a>
+                                                            <div class="recommend_reason no_wrap">
+                                    芝麻配上白玉丸 清香软糯很有料                                </div>
+                                                    </div>
+                        <div class="price_wrap">
+                            <p class="new_price">
+                                <small>¥</small>218                            </p>
+                                                        
+                                                    </div>
+                                            </div>
+                </div>
+            </div>
+        </li>
+            <li class="common_list_item  no_height  "
+            data-id="100938"
+            data-isNeedLinkToDetail=""
+            data-SettlementOnly=""
+            data-hideSpec=""
+            data-items=''
+            data-goodsSweet=""
+            data-goodsTasteTxt="雪域口味"
+        >
+            <div class="item_info">
+                <div class="item_message">
+                    <a href="/shop/goods-100938.html" target="_blank" class="img_link"
+                                                    data-statistics="home_goods_list_cake_img_12|点击商品图片跳转商品详情页_草莓雪域芝士"
+                                                                            data-clickstr="Sm7nOrIWCX2kA1YnC0kWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                               style="overflow: initial;"
+                    >
+                        <div class="auto_pos">
+                                                                                                <img class="lazy"
+                                         src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="//imagecdn.lapetit.cn/postsystem/docroot/images/goods/201301/10937/list_10937.jpg?v=1589943573"
+                                    />
+                                                                                                                                                                        </div>
+                    </a>
+                    <div class="item_detail">
+                        <div class="name_wrap">
+                            <div class="p_tag">
+                                                                                            </div>
+                            <a href="/shop/goods-100938.html" target="_blank"
+                                                                    data-statistics="home_goods_list_cake_title_12|点击商品名称跳转商品详情页_草莓雪域芝士"
+                                                                                                    data-clickstr="Sm7nOrIWCX2kA1YnC0kWMKRZPbEWCW7BFH3MOJIoJJ3JEpAW907pQqJm6Xck907oOKpZ6XclBX6rB1EsAXIkA16sT."
+                                                            >
+                                <h3 class="item_name no_wrap">草莓雪域芝士</h3>
+                            </a>
+                                                            <div class="recommend_reason no_wrap">
+                                    时令草莓邂逅浓浓芝士                                </div>
+                                                    </div>
+                        <div class="price_wrap">
+                            <p class="new_price">
+                                <small>¥</small>218                            </p>
+                                                        
+                                                    </div>
+                                            </div>
+                </div>
+            </div>
+        </li>
+    </ul></section>            <section class="comment_section">
+    <h2><span>热门评论</span></h2>
+            <div class="nav_wrap prev_wrap">
+            <a href="javascript:void(0)" class="nav prev swiper-button-prev"
+               data-statistics="home_comment_prev|上一个评论"></a>
+        </div>
+        <div class="nav_wrap next_wrap">
+            <a href="javascript:void(0)" class="nav next swiper-button-next"
+               data-statistics="home_comment_prev|下一个评论"></a>
+        </div>
+        <div class="comment_list swiper-container" id="comments">
+        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-114121.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_1|首页评论banner_1">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202104/24183/home_24183.jpg?v=1618150911"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    187****1113                                    &nbsp;&nbsp;
+                                    2021-07-05                                </p>
+                                <p class="text">松软的戚风蛋糕带着香草的气味夹着草莓慕斯和草莓啫喱，香香甜甜，很有少女的味道！！喜欢喜欢！</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-103283.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_2|首页评论banner_2">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/201503/13345/home_13345.jpg?v=1571371750"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    158****3180                                    &nbsp;&nbsp;
+                                    2021-07-03                                </p>
+                                <p class="text">好好吃哦这款！芒果口感太好了。酸酸甜甜的，奶油不甜腻！夹心的味道也很有层次。</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-114145.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_3|首页评论banner_3">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202104/24207/home_24207.jpg?v=1621995409"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    136****0255                                    &nbsp;&nbsp;
+                                    2021-07-01                                </p>
+                                <p class="text">ins风莫兰迪色的芋泥蛋糕，有颜味道也OK，不甜腻好吃噢。</p>
+                            </div>
+                        </div>
+                                    </li>
+                            <li class="swiper-slide">
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-100801.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_1|首页评论banner_1">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/201212/10800/home_10800.jpg?v=1571625935"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    139****4419                                    &nbsp;&nbsp;
+                                    2021-06-28                                </p>
+                                <p class="text">中下层口感清爽不腻，淡奶油太棒了，很喜欢(｡･ω･｡)ﾉ♡</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-114280.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_2|首页评论banner_2">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202104/24342/home_24342.jpg?v=1618841093"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    175****8421                                    &nbsp;&nbsp;
+                                    2021-04-28                                </p>
+                                <p class="text">满满的芝麻味，味道好特别，喜欢吃芝麻的我太爱了</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-114211.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_3|首页评论banner_3">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202104/24273/home_24273.jpg?v=1618389347"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    158****1452                                    &nbsp;&nbsp;
+                                    2021-04-18                                </p>
+                                <p class="text">蛋糕造型也太好看了，玫瑰很清新，蛋糕口味甜度合适，美味！</p>
+                            </div>
+                        </div>
+                                    </li>
+                            <li class="swiper-slide">
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-114145.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_1|首页评论banner_1">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202104/24207/home_24207.jpg?v=1621995409"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    135****2154                                    &nbsp;&nbsp;
+                                    2021-04-19                                </p>
+                                <p class="text">味道很不错，甜度适中，样子也很好看，已经安利给身边朋友了</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-114121.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_2|首页评论banner_2">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202104/24183/home_24183.jpg?v=1618150911"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    185****9854                                    &nbsp;&nbsp;
+                                    2021-04-16                                </p>
+                                <p class="text">蛋糕超ins风的，好看好吃，送的也很准时哦。非常满意！</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-103283.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_3|首页评论banner_3">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/201503/13345/home_13345.jpg?v=1571371750"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    185****4854                                    &nbsp;&nbsp;
+                                    2021-04-07                                </p>
+                                <p class="text">口味不错，很好吃不腻，小朋友很爱吃，第二次购买了，会继续回购～</p>
+                            </div>
+                        </div>
+                                    </li>
+                            <li class="swiper-slide">
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-112957.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_1|首页评论banner_1">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202006/23019/home_23019.jpg?v=1594203879"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    183****6957                                    &nbsp;&nbsp;
+                                    2021-03-17                                </p>
+                                <p class="text">超级好吃 和照片一模一样 口感新鲜 奶香浓郁 美味～</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-102226.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_2|首页评论banner_2">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/201310/12287/home_12287.jpg?v=1616492416"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    185****8745                                    &nbsp;&nbsp;
+                                    2021-02-22                                </p>
+                                <p class="text">不同口味不同特色，同时能品尝多种不同口味，口感软糯入口即化。</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-113299.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_3|首页评论banner_3">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202008/23361/home_23361.jpg?v=1615449933"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    177****6347                                    &nbsp;&nbsp;
+                                    2021-02-07                                </p>
+                                <p class="text">蛋糕是奶茶口味的 吸管真的可以吸出好东西来 不甜 很可口~</p>
+                            </div>
+                        </div>
+                                    </li>
+                            <li class="swiper-slide">
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-112580.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_1|首页评论banner_1">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/201909/22642/home_22642.jpg?v=1571643515"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    184****5487                                    &nbsp;&nbsp;
+                                    2021-02-02                                </p>
+                                <p class="text">口味不错，很好吃不腻，小朋友很爱吃，第二次购买了，会继续回购～</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-113889.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_2|首页评论banner_2">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202101/23951/home_23951.jpg?v=1615447022"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    186****1346                                    &nbsp;&nbsp;
+                                    2021-01-25                                </p>
+                                <p class="text">蛋糕太惊喜了！造型独特口味很棒，一致好评！</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-113791.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_3|首页评论banner_3">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202012/23853/home_23853.jpg?v=1615970664"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    181****2052                                    &nbsp;&nbsp;
+                                    2021-01-08                                </p>
+                                <p class="text">很不错，家里人都很喜欢，很适合聚会过年，推荐</p>
+                            </div>
+                        </div>
+                                    </li>
+                            <li class="swiper-slide">
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-100938.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_1|首页评论banner_1">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/201301/10937/home_10937.jpg?v=1575451683"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    175****8436                                    &nbsp;&nbsp;
+                                    2020-12-31                                </p>
+                                <p class="text">超好吃！甜而不腻，入口即化，底子下有小细节不怕蛋糕跑歪，整个包装都很好～</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-113701.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_2|首页评论banner_2">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202011/23640/home_23640.jpg?v=1605498179"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    157****5613                                    &nbsp;&nbsp;
+                                    2020-12-21                                </p>
+                                <p class="text">口味很丰富，设计精美，旋转烛台孩子超级喜欢</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-106135.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_3|首页评论banner_3">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/201803/16196/home_16196.jpg?v=1618457947"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    156****2142                                    &nbsp;&nbsp;
+                                    2020-12-11                                </p>
+                                <p class="text">口味真是没得说，很好吃，尤其上面的马卡龙味道口感都不错！</p>
+                            </div>
+                        </div>
+                                    </li>
+                            <li class="swiper-slide">
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-113644.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_1|首页评论banner_1">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202011/23706/home_23706.jpg?v=1606392556"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    189****4190                                    &nbsp;&nbsp;
+                                    2020-12-10                                </p>
+                                <p class="text">好吃！而且曲奇每个都是单独的小包装，赞赞赞~~</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-113511.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_2|首页评论banner_2">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202010/23573/home_23573.jpg?v=1615449715"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    170****6073                                    &nbsp;&nbsp;
+                                    2020-12-01                                </p>
+                                <p class="text">很好吃！每次买诺心蛋糕都选这款。甜度刚刚好。口感很绵密！超好吃！</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-113578.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_3|首页评论banner_3">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202011/23640/home_23640.jpg?v=1605498179"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    170****0156                                    &nbsp;&nbsp;
+                                    2020-11-18                                </p>
+                                <p class="text">颜值太高了，收到后忍不住拍拍拍，酸甜的口感，层次丰富，喜欢喜欢</p>
+                            </div>
+                        </div>
+                                    </li>
+                            <li class="swiper-slide">
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-112580.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_1|首页评论banner_1">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/201909/22642/home_22642.jpg?v=1571643515"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    132****7553                                    &nbsp;&nbsp;
+                                    2020-11-13                                </p>
+                                <p class="text">好好吃啊，阿华田口味浓郁，甜而不腻。造型也有趣。以后都认准诺心蛋糕了~</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-113499.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_2|首页评论banner_2">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202010/23561/home_23561.jpg?v=1603291760"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    158****4061                                    &nbsp;&nbsp;
+                                    2020-10-30                                </p>
+                                <p class="text">巧克力味道比较浓郁，家里的孩子很喜欢吃，下次还会在诺心买生日蛋糕，推荐！</p>
+                            </div>
+                        </div>
+                                            <div class="comment_item">
+                            <div class="img_goods">
+                                <a href="/shop/goods-113449.html"
+                                   target="_blank"
+                                   data-statistics="home_comment_link_3|首页评论banner_3">
+                                    <img src="//newimgcdn.lecake.com/web/images/grey.gif"
+                                         data-original="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/202009/23511/home_23511.jpg?v=1601187620"
+                                         class="slideLazy">
+                                </a>
+                            </div>
+                            <div class="comment_content">
+                                <p class="nick">
+                                    172****7213                                    &nbsp;&nbsp;
+                                    2020-10-27                                </p>
+                                <p class="text">这款联名盒子蛋糕太绝了，几个口味都好吃，我已经全吃完了，准备再买一组！</p>
+                            </div>
+                        </div>
+                                    </li>
+                    </ul>
+    </div>
+</section>        </div>
+            <footer class="global_footer_new">
+        <div class="footer_online" id="fixedFooterOnline">
+            <a href="javascript:void(0)" class="service_btn" id="footerServiceBtn"><i></i>在线客服</a>
+            <a href="javascript:void (0)" class="back_top hide" id="backTop"><span></span>返回顶部</a>
+        </div>
+        <div class="footer_content">
+            <div class="footer_nav clear_fix">
+                <p class="clear_fix">
+                    <a href="/about/notice.html" target="_blank">诺心公告</a>
+                    <a href="/about/profile.html" target="_blank">关于诺心</a>
+                    <a href="/about/help.html" target="_blank">客服服务</a>
+                    <a href="//lecake.oss-cn-shanghai.aliyuncs.com/topic/group/business_certificate5.jpg"
+                       target="_blank">食品经营许可证</a>
+                    <a href="//lecake.oss-cn-shanghai.aliyuncs.com/topic/business/business_certificate_produce.jpg"
+                       target="_blank">生产许可证</a>
+                    <a href="/shop/help-668.html" target="_blank">预付费卡协议</a>
+                    <a href="/shop/help-80.html" target="_blank">联系我们</a>
+                                    </p>
+            </div>
+                            <div class="footer_tel">
+                    <p>
+                        <span>如有问题，请联系在线客服。工作时间：9:00-21:00</span>
+                    </p>
+                </div>
+                        <div class="footer_copy">
+                <p>
+                    copyright©2010-2021 诺心lecake.com版权所有&nbsp;&nbsp;诺心食品（上海）有限公司&nbsp;&nbsp;
+                    <a href="http://www.beian.miit.gov.cn" target="_blank">沪ICP备10211730号</a>&nbsp;&nbsp;
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402003364
+" target="_blank">沪公网安备31010402003364号</a>
+                </p>
+            </div>
+            <div class="wx_btn">
+                <a href="javascript:void (0)" class="wx_img">
+                    <img src="//newimgcdn.lecake.com/web/images/qrCode.png">
+                </a>
+                关注微信公众号<br>可进入微商城
+            </div>
+            <!--放心消费在上海-->
+                    </div>
+    </footer>
+</article>
+
+
+
+    <div class="getCoupons_popup" id="getCoupons">
+    <template>
+        <div class="get_coupons pop" v-if="showPopup==='getCoupons'">
+            <div class="cover"></div>
+            <div class="inner">
+                <img src="//lecake.oss-cn-shanghai.aliyuncs.com/topic/2021/3_getCoupons/web/west/getCoupons_1.png" alt="">
+                <a href="javascript:;" class="empty_pl link btn_getCoupons" @click="getCoupons">立即领券</a>
+                <a href="javascript:void(0);" class="close_btn empty_pl" @click="close">关闭</a>
+            </div>
+        </div>
+        <div class="coupon_new pop" v-if="showPopup==='new'">
+            <div class="cover"></div>
+            <div class="inner">
+                <img src="//lecake.oss-cn-shanghai.aliyuncs.com/topic/2021/3_getCoupons/web/west/coupon_new.png" alt="">
+                <a href="javascript:void(0);" class="link link_couponList empty_pl" @click="goCouponsList">查看优惠券-优惠券列表</a>
+                <a href="javascript:void(0);" data-keyword="21587" class="link link_goodsList empty_pl" @click="goGoodsList(21587)">立即使用-商品列表</a>
+                <a href="javascript:void(0);" class="close_btn empty_pl" @click="close">关闭</a>
+            </div>
+        </div>
+        <div class="coupon_old pop" v-if="showPopup==='old'">
+            <div class="cover"></div>
+            <div class="inner">
+                <img src="//lecake.oss-cn-shanghai.aliyuncs.com/topic/2021/3_getCoupons/web/west/coupon_old.png" alt="">
+                <a href="javascript:void(0);" class="link link_couponList empty_pl" @click="goCouponsList">查看优惠券-优惠券列表</a>
+                <a href="javascript:void(0);" data-keyword="20975" class="link link_goodsList empty_pl" @click="goGoodsList(20975)">立即使用-商品列表</a>
+                <a href="javascript:void(0);" class="close_btn empty_pl" @click="close">关闭</a>
+            </div>
+        </div>
+        <div class="fail_got pop" v-if="showPopup==='fail'">
+            <div class="cover"></div>
+            <div class="inner">
+                <img src="//lecake.oss-cn-shanghai.aliyuncs.com/topic/2021/3_getCoupons/web/west/pop_got.png" alt="">
+                <a href="javascript:void(0);" class="link link_couponList empty_pl" @click="goCouponsList">查看优惠券-优惠券列表</a>
+                <a href="javascript:void(0);" class="link link_home empty_pl" @click="goHome">立即使用-首页</a>
+                <a href="javascript:void(0);" class="close_btn empty_pl" @click="close">关闭</a>
+            </div>
+        </div>
+    </template>
+</div>
+        <div id="loginPop" v-show="isShow">
+        <input type="hidden" id="__common_login_isYzm" value="0">
+        <input type="hidden" id="__common_login_yzm" value="260544045">
+        <input type="hidden" id="__common_login_isShow" value="0">
+        <template>
+            <div class="main_login_pop">
+                <div class="main">
+                    <a href="javascript:void(0)" class="close_login_pop" @click="isShow=false">关闭</a>
+                    <div class="form_wrap">
+                        <p class="input_wrap mobile_wrap">
+                            <input type="tel" placeholder="请输入手机号" maxlength="11" v-model.trim="mobile"/>
+                        </p>
+                        <p class="input_wrap yzm_wrap" v-if="isYzm==='1'">
+                            <input type="text" placeholder="验证码" maxlength="4" v-model.trim="yzm"/>
+                            <img :src="captchaImg" alt="点击刷新" @click="getCaptcha">
+                        </p>
+                        <p class="input_wrap code_wrap">
+                            <input type="text" placeholder="短信验证码" v-model.trim="code" maxlength="4"/>
+                            <button class="btn" @click="sendSMS" v-show=" !isCodeGetting && time == 0 ">发送验证码</button>
+                            <button class="btn" v-show=" isCodeGetting " disabled>正在发送</button>
+                            <button class="btn" disabled v-show=" time > 0 ">{{time}}秒后重试</button>
+                        </p>
+                        <div class="bottom">
+                            <button class="btn"
+                                    :disabled="isFetching"
+                                    @click=" submitLogin ">
+                                登录
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <transition name="pop">
+                    <div class="ui_pop" v-show="showConfirm">
+                        <div class="ui_confirm inner">
+                            <div class="text">
+                                <h3>手机号{{mobile}}已绑定以下账号，为了您的账户安全请选择一个诺心账户登录,此手机号将与其他账号解绑。</h3>
+                                <h4>若有疑问可联系在线客服4001-578-578。</h4>
+                                <div class="mobile_list">
+                                    <a href="javascript:void(0)"
+                                       v-for="item in mobileList"
+                                       :class="{active:custID===item.custID}"
+                                       @click="custID=item.custID;selectedMobile=item.mobile;">{{item.custID}}</a>
+                                </div>
+                            </div>
+                            <div class="btn_wrap clear_fix">
+                                <button class="f_left cancel_btn" @click="showConfirm=false">取消</button>
+                                <button class="f_right ok_btn" @click="unbindMobile">确定</button>
+                            </div>
+                        </div>
+                    </div>
+                </transition>
+            </div>
+        </template>
+    </div>
+
+<script>
+    var statisticsFlag = true;
+    var bannerList = {"1":[{"sourceId":30081,"sourceTitle":"\u751c\u871c\u6709\u793c \u597d\u5473\u53cc\u4eab","sourceColour":"ffffff","sourceBgcolour":"","sourceBrief":"\u6b63\u4ef7\u8d2d\u86cb\u7cd5 \u8d60\uffe5336\u539f\u5473\u5df4\u65af\u514b","picturelink":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/promotion\/202107\/D189BF1248A41B4022619BA3C2359B22.jpg","picturelinkext":"","urllink":"https:\/\/www.lecake.com\/SH\/category-0-1.html","postid":null,"extendId":"","topCategoryId":82,"sourceCategoryId":83,"useflg":1,"startdate":null,"enddate":null,"sourcestatus":3,"topflg":0,"publishflg":null,"publisher":null,"publishdate":null,"displayorder":null,"typeSourceId":868,"description":"","uid":null,"pnPostId":null,"forStartTime":null,"forEndTime":null},{"sourceId":30058,"sourceTitle":"\u300c\u9b54\u300d\u529b\u63a7\u5361  \u8f7b\u723d\u597d\u300c\u8292\u6930\u300d","sourceColour":"ffffff","sourceBgcolour":"","sourceBrief":"\u590f\u65e5\u9650\u5b9a  \u8292\u751c\u6930\u9999","picturelink":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/promotion\/202107\/F83FDCE07943FC01267888FE114BF8BA.jpg","picturelinkext":"","urllink":"http:\/\/www.lecake.com\/shop\/goods-114785.html","postid":null,"extendId":"","topCategoryId":82,"sourceCategoryId":83,"useflg":1,"startdate":null,"enddate":null,"sourcestatus":3,"topflg":0,"publishflg":null,"publisher":null,"publishdate":null,"displayorder":null,"typeSourceId":866,"description":"","uid":null,"pnPostId":null,"forStartTime":null,"forEndTime":null},{"sourceId":30096,"sourceTitle":"","sourceColour":"","sourceBgcolour":"","sourceBrief":"","picturelink":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/promotion\/202107\/653634D059AE8C80C70B1A23AE43FB9C.jpg","picturelinkext":"","urllink":"http:\/\/www.lecake.com\/shop\/goods-114864.html","postid":null,"extendId":"","topCategoryId":82,"sourceCategoryId":83,"useflg":1,"startdate":null,"enddate":null,"sourcestatus":3,"topflg":0,"publishflg":null,"publisher":null,"publishdate":null,"displayorder":null,"typeSourceId":869,"description":"","uid":null,"pnPostId":null,"forStartTime":null,"forEndTime":null},{"sourceId":29925,"sourceTitle":"\u76db\u590f7\u6708 \u6709\u4f60\u771f\u751c","sourceColour":"d31a18","sourceBgcolour":"","sourceBrief":"\u591a\u6b3e\u4eba\u6c14\u86cb\u7cd5 \u4eab\u9650\u65f675\u6298","picturelink":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/promotion\/202010\/9E66B32923D67C1E9851062ABDB3F65D.jpg","picturelinkext":"","urllink":"https:\/\/www.lecake.com\/topic\/index.html?uid=19IJblz53","postid":null,"extendId":"","topCategoryId":82,"sourceCategoryId":83,"useflg":1,"startdate":null,"enddate":null,"sourcestatus":3,"topflg":0,"publishflg":null,"publisher":null,"publishdate":null,"displayorder":null,"typeSourceId":757,"description":"","uid":null,"pnPostId":null,"forStartTime":null,"forEndTime":null},{"sourceId":29771,"sourceTitle":"","sourceColour":"","sourceBgcolour":"","sourceBrief":"","picturelink":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/promotion\/202104\/66604045099918D92C2886984069561A.jpg","picturelinkext":"","urllink":"https:\/\/www.lecake.com\/shop\/goods-114605.html","postid":null,"extendId":"","topCategoryId":82,"sourceCategoryId":83,"useflg":1,"startdate":null,"enddate":null,"sourcestatus":3,"topflg":0,"publishflg":null,"publisher":null,"publishdate":null,"displayorder":null,"typeSourceId":826,"description":"","uid":null,"pnPostId":null,"forStartTime":null,"forEndTime":null}],"2":[{"sourceId":29868,"sourceTitle":"\u51b0\u6dc7\u6dcb","sourceColour":"","sourceBgcolour":"","sourceBrief":"","picturelink":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/promotion\/202105\/A48CDD18107A4F7C050F6D4E7E0A418E.jpg","picturelinkext":"","urllink":"https:\/\/www.lecake.com\/shop\/goods-114285.html","postid":null,"extendId":"","topCategoryId":82,"sourceCategoryId":84,"useflg":1,"startdate":null,"enddate":null,"sourcestatus":4,"topflg":0,"publishflg":null,"publisher":null,"publishdate":null,"displayorder":null,"typeSourceId":841,"description":"","uid":null,"pnPostId":null,"forStartTime":null,"forEndTime":null},{"sourceId":29756,"sourceTitle":"\u65b0\u4eba\u9886\u5238","sourceColour":"","sourceBgcolour":"","sourceBrief":"","picturelink":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/promotion\/202104\/2C3E9A70EDBF09D2A4484A87E2CF2620.jpg","picturelinkext":"","urllink":"https:\/\/www.lecake.com\/shop\/help-1011.html","postid":null,"extendId":"","topCategoryId":82,"sourceCategoryId":84,"useflg":1,"startdate":null,"enddate":null,"sourcestatus":4,"topflg":0,"publishflg":null,"publisher":null,"publishdate":null,"displayorder":null,"typeSourceId":824,"description":"","uid":null,"pnPostId":null,"forStartTime":null,"forEndTime":null}]};
+    var commentList = [[{"headPic":"commentshead\/E2B46C28626A8291AB6FF98EAF3015EE.png","mobile":"18786861113","commentsContent":"\u677e\u8f6f\u7684\u621a\u98ce\u86cb\u7cd5\u5e26\u7740\u9999\u8349\u7684\u6c14\u5473\u5939\u7740\u8349\u8393\u6155\u65af\u548c\u8349\u8393\u556b\u55b1\uff0c\u9999\u9999\u751c\u751c\uff0c\u5f88\u6709\u5c11\u5973\u7684\u5473\u9053\uff01\uff01\u559c\u6b22\u559c\u6b22\uff01","commentsTime":1625468700000,"goodsPic":"commentsgoods\/AC5363BB746DFA09258E156C2BBAB202.png","goodsId":"114121","sitesId":"2,287,355,447,356,420,261,83,386,228","sort":329,"status":1,"updateTime":1625555692000,"creator":"ying.jin","createTime":1625555692000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24183\/home_24183.jpg?v=1618150911","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24183\/list_24183.jpg"},{"headPic":"commentshead\/7A2BF06343CA4492A29EAF3DAB12B557.png","mobile":"15899923180","commentsContent":"\u597d\u597d\u5403\u54e6\u8fd9\u6b3e\uff01\u8292\u679c\u53e3\u611f\u592a\u597d\u4e86\u3002\u9178\u9178\u751c\u751c\u7684\uff0c\u5976\u6cb9\u4e0d\u751c\u817b\uff01\u5939\u5fc3\u7684\u5473\u9053\u4e5f\u5f88\u6709\u5c42\u6b21\u3002","commentsTime":1625295600000,"goodsPic":"commentsgoods\/8379246EAA8EB9DA80E9CBBA353D26E7.png","goodsId":"103283","sitesId":"2,287,355,334,356,420,261,83,386,228","sort":328,"status":1,"updateTime":1625555148000,"creator":"ying.jin","createTime":1625555148000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201503\/13345\/home_13345.jpg?v=1571371750","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201503\/13345\/list_13345.jpg"},{"headPic":"commentshead\/BAF744B55F0603DAF14CF3A3BBD027A4.png","mobile":"13695750255","commentsContent":"ins\u98ce\u83ab\u5170\u8fea\u8272\u7684\u828b\u6ce5\u86cb\u7cd5\uff0c\u6709\u989c\u5473\u9053\u4e5fOK\uff0c\u4e0d\u751c\u817b\u597d\u5403\u5662\u3002","commentsTime":1625112600000,"goodsPic":"commentsgoods\/5EAC4FF7546CA0384CA23F2EE3433AD5.png","goodsId":"114145","sitesId":"2,287,355,334,356,420,261,83,386,228","sort":327,"status":1,"updateTime":1625554737000,"creator":"ying.jin","createTime":1625554737000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24207\/home_24207.jpg?v=1621995409","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24207\/list_24207.jpg"}],{"3":{"headPic":"commentshead\/592BFEB9D63F08C3A251ED72666DE289.png","mobile":"13958854419","commentsContent":"\u4e2d\u4e0b\u5c42\u53e3\u611f\u6e05\u723d\u4e0d\u817b\uff0c\u6de1\u5976\u6cb9\u592a\u68d2\u4e86\uff0c\u5f88\u559c\u6b22(\uff61\uff65\u03c9\uff65\uff61)\uff89\u2661","commentsTime":1624864200000,"goodsPic":"commentsgoods\/40A416EBE01E780FCB2506BF5304202A.png","goodsId":"100801","sitesId":"2,287,355,447,334,356,420,449,261,83,386,446,228","sort":326,"status":1,"updateTime":1625553848000,"creator":"ying.jin","createTime":1625553848000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201212\/10800\/home_10800.jpg?v=1571625935","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201212\/10800\/list_10800.jpg"},"4":{"headPic":"commentshead\/71B787F6E5FC6B91A401D4F11E95F94D.png","mobile":"17545258421","commentsContent":"\u6ee1\u6ee1\u7684\u829d\u9ebb\u5473\uff0c\u5473\u9053\u597d\u7279\u522b\uff0c\u559c\u6b22\u5403\u829d\u9ebb\u7684\u6211\u592a\u7231\u4e86","commentsTime":1619597100000,"goodsPic":"commentsgoods\/205F59C44F8F569DD1E79B349C62C03E.png","goodsId":"114280","sitesId":"2,287,355,356,420,261,83,228","sort":325,"status":1,"updateTime":1619598934000,"creator":"qing.lu","createTime":1619598934000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24342\/home_24342.jpg?v=1618841093","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24342\/list_24342.jpg"},"5":{"headPic":"commentshead\/A06C821C0D1D407327BE0777E39DBBC4.png","mobile":"15871121452","commentsContent":"\u86cb\u7cd5\u9020\u578b\u4e5f\u592a\u597d\u770b\u4e86\uff0c\u73ab\u7470\u5f88\u6e05\u65b0\uff0c\u86cb\u7cd5\u53e3\u5473\u751c\u5ea6\u5408\u9002\uff0c\u7f8e\u5473\uff01","commentsTime":1618737900000,"goodsPic":"commentsgoods\/7C77B9E05CF9EF05B765413D88640523.png","goodsId":"114211","sitesId":"2,287,355,447,334,356,420,449,261,83,386,446,228,499","sort":324,"status":1,"updateTime":1618824578000,"creator":"qing.lu","createTime":1618824578000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24273\/home_24273.jpg?v=1618389347","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24273\/list_24273.jpg"}},{"6":{"headPic":"commentshead\/302AC253D5CBBD9B65B78A01216CDFF5.png","mobile":"13545842154","commentsContent":"\u5473\u9053\u5f88\u4e0d\u9519\uff0c\u751c\u5ea6\u9002\u4e2d\uff0c\u6837\u5b50\u4e5f\u5f88\u597d\u770b\uff0c\u5df2\u7ecf\u5b89\u5229\u7ed9\u8eab\u8fb9\u670b\u53cb\u4e86","commentsTime":1618824000000,"goodsPic":"commentsgoods\/7E489D2F1AE34589FFC0CA778C353330.png","goodsId":"114145","sitesId":"2,287,355,447,334,356,420,449,261,83,386,446,228,499","sort":323,"status":1,"updateTime":1618824222000,"creator":"qing.lu","createTime":1618824222000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24207\/home_24207.jpg?v=1621995409","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24207\/list_24207.jpg"},"7":{"headPic":"commentshead\/BE5E23B39E7158DF634B12B1A9419017.png","mobile":"18521569854","commentsContent":"\u86cb\u7cd5\u8d85ins\u98ce\u7684\uff0c\u597d\u770b\u597d\u5403\uff0c\u9001\u7684\u4e5f\u5f88\u51c6\u65f6\u54e6\u3002\u975e\u5e38\u6ee1\u610f\uff01","commentsTime":1618564500000,"goodsPic":"commentsgoods\/BE889A48181FBE8FD10F87D550819C0B.png","goodsId":"114121","sitesId":"2,287,355,356,420,261,83,386,228","sort":322,"status":1,"updateTime":1618823989000,"creator":"qing.lu","createTime":1618823989000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24183\/home_24183.jpg?v=1618150911","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24183\/list_24183.jpg"},"8":{"headPic":"commentshead\/538D52E5228F982FE4B168238DD85B76.png","mobile":"18512454854","commentsContent":"\u53e3\u5473\u4e0d\u9519\uff0c\u5f88\u597d\u5403\u4e0d\u817b\uff0c\u5c0f\u670b\u53cb\u5f88\u7231\u5403\uff0c\u7b2c\u4e8c\u6b21\u8d2d\u4e70\u4e86\uff0c\u4f1a\u7ee7\u7eed\u56de\u8d2d\uff5e","commentsTime":1617789300000,"goodsPic":"commentsgoods\/FE6966CECF519B8C8279D0F669E5B3F3.png","goodsId":"103283","sitesId":"2,287,355,447,356,420,449,261,83,386","sort":321,"status":1,"updateTime":1617789609000,"creator":"qing.lu","createTime":1617789609000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201503\/13345\/home_13345.jpg?v=1571371750","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201503\/13345\/list_13345.jpg"}},{"9":{"headPic":"commentshead\/5C5302DFBFD56FEE2AEE85681EBF352E.png","mobile":"18321616957","commentsContent":"\u8d85\u7ea7\u597d\u5403 \u548c\u7167\u7247\u4e00\u6a21\u4e00\u6837 \u53e3\u611f\u65b0\u9c9c \u5976\u9999\u6d53\u90c1 \u7f8e\u5473\uff5e","commentsTime":1615965600000,"goodsPic":"commentsgoods\/71936C0985ECBCD70B76CA9EC8793B01.png","goodsId":"112957","sitesId":"2,287,355,356,420,449,261,83,386,228","sort":320,"status":1,"updateTime":1615965951000,"creator":"qing.lu","createTime":1615965903000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202006\/23019\/home_23019.jpg?v=1594203879","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202006\/23019\/list_23019.jpg"},"10":{"headPic":"commentshead\/F33E2940970FCA3F83006606AD6918A5.png","mobile":"18521568745","commentsContent":"\u4e0d\u540c\u53e3\u5473\u4e0d\u540c\u7279\u8272\uff0c\u540c\u65f6\u80fd\u54c1\u5c1d\u591a\u79cd\u4e0d\u540c\u53e3\u5473\uff0c\u53e3\u611f\u8f6f\u7cef\u5165\u53e3\u5373\u5316\u3002","commentsTime":1613959500000,"goodsPic":"commentsgoods\/75E8CD97FE60A31E14E832CEF7889CA6.png","goodsId":"102226","sitesId":"2,287,355,447,356,420,261,83,386,446,228","sort":319,"status":1,"updateTime":1613959854000,"creator":"qing.lu","createTime":1613959822000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201310\/12287\/home_12287.jpg?v=1616492416","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201310\/12287\/list_12287.jpg"},"11":{"headPic":"commentshead\/CE85AC550945BABE41610EA4D0655C64.png","mobile":"17721426347","commentsContent":"\u86cb\u7cd5\u662f\u5976\u8336\u53e3\u5473\u7684 \u5438\u7ba1\u771f\u7684\u53ef\u4ee5\u5438\u51fa\u597d\u4e1c\u897f\u6765 \u4e0d\u751c \u5f88\u53ef\u53e3~","commentsTime":1612669200000,"goodsPic":"commentsgoods\/FDBE9B4245DB98326F7A80185BC37A09.png","goodsId":"113299","sitesId":"2,287,355,447,334,356,420,449,261,83,386,446,228,499","sort":318,"status":1,"updateTime":1612670622000,"creator":"qing.lu","createTime":1612670622000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202008\/23361\/home_23361.jpg?v=1615449933","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202008\/23361\/list_23361.jpg"}},{"12":{"headPic":"commentshead\/A9F4FD4ABAF9D0A250A81EF3EF4411BC.png","mobile":"18475425487","commentsContent":"\u53e3\u5473\u4e0d\u9519\uff0c\u5f88\u597d\u5403\u4e0d\u817b\uff0c\u5c0f\u670b\u53cb\u5f88\u7231\u5403\uff0c\u7b2c\u4e8c\u6b21\u8d2d\u4e70\u4e86\uff0c\u4f1a\u7ee7\u7eed\u56de\u8d2d\uff5e","commentsTime":1612233000000,"goodsPic":"commentsgoods\/669F0670B7524F4CB6CD4D53A2C4DF36.png","goodsId":"112580","sitesId":"2,287,355,447,334,356,420,449,261,83,386,446,228,499","sort":317,"status":1,"updateTime":1612233874000,"creator":"qing.lu","createTime":1612233874000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201909\/22642\/home_22642.jpg?v=1571643515","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201909\/22642\/list_22642.jpg"},"13":{"headPic":"commentshead\/B9DBD1C4A56219A6388848EC93588A01.png","mobile":"18625421346","commentsContent":"\u86cb\u7cd5\u592a\u60ca\u559c\u4e86\uff01\u9020\u578b\u72ec\u7279\u53e3\u5473\u5f88\u68d2\uff0c\u4e00\u81f4\u597d\u8bc4\uff01","commentsTime":1611546300000,"goodsPic":"commentsgoods\/AB7D7D19C5602FA47D431023081F1341.png","goodsId":"113889","sitesId":"2,287,355,356,420,449,261,83,386,228","sort":316,"status":1,"updateTime":1611546721000,"creator":"qing.lu","createTime":1611546639000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202101\/23951\/home_23951.jpg?v=1615447022","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202101\/23951\/list_23951.jpg"},"14":{"headPic":"commentshead\/C48B0022D6F934CA419A93835D616612.png","mobile":"18117102052","commentsContent":"\u5f88\u4e0d\u9519\uff0c\u5bb6\u91cc\u4eba\u90fd\u5f88\u559c\u6b22\uff0c\u5f88\u9002\u5408\u805a\u4f1a\u8fc7\u5e74\uff0c\u63a8\u8350","commentsTime":1610103000000,"goodsPic":"commentsgoods\/EFDE878711DC375C93978CE974339293.png","goodsId":"113791","sitesId":"2,287,355,447,356,420,449,261,83,386,446,228,499","sort":315,"status":1,"updateTime":1610103327000,"creator":"qing.lu","createTime":1610103307000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202012\/23853\/home_23853.jpg?v=1615970664","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202012\/23853\/list_23853.jpg"}},{"15":{"headPic":"commentshead\/B4FCD5A5C304F012DD3AA918FE5FBDB9.png","mobile":"17521568436","commentsContent":"\u8d85\u597d\u5403\uff01\u751c\u800c\u4e0d\u817b\uff0c\u5165\u53e3\u5373\u5316\uff0c\u5e95\u5b50\u4e0b\u6709\u5c0f\u7ec6\u8282\u4e0d\u6015\u86cb\u7cd5\u8dd1\u6b6a\uff0c\u6574\u4e2a\u5305\u88c5\u90fd\u5f88\u597d\uff5e","commentsTime":1609383300000,"goodsPic":"commentsgoods\/705896CA4A4374170994B2236023FBF1.png","goodsId":"100938","sitesId":"2,355,447,356,420,261,83,386,228","sort":314,"status":1,"updateTime":1609383737000,"creator":"qing.lu","createTime":1609383715000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201301\/10937\/home_10937.jpg?v=1575451683","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201301\/10937\/list_10937.jpg"},"16":{"headPic":"commentshead\/839E63353A605EA8A4A130BB9348EC26.png","mobile":"15787655613","commentsContent":"\u53e3\u5473\u5f88\u4e30\u5bcc\uff0c\u8bbe\u8ba1\u7cbe\u7f8e\uff0c\u65cb\u8f6c\u70db\u53f0\u5b69\u5b50\u8d85\u7ea7\u559c\u6b22","commentsTime":1608545100000,"goodsPic":"commentsgoods\/33F10810813C6FEC2D2227F862A5368B.png","goodsId":"113701","sitesId":"2,287,355,356,420,449,261,83,386,228","sort":313,"status":1,"updateTime":1608631633000,"creator":"qing.lu","createTime":1608631633000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202011\/23640\/home_23640.jpg?v=1605498179","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202011\/23640\/list_23640.jpg"},"17":{"headPic":"commentshead\/ED07AC503F49A4E679272D7B2D10C135.png","mobile":"15618382142","commentsContent":"\u53e3\u5473\u771f\u662f\u6ca1\u5f97\u8bf4\uff0c\u5f88\u597d\u5403\uff0c\u5c24\u5176\u4e0a\u9762\u7684\u9a6c\u5361\u9f99\u5473\u9053\u53e3\u611f\u90fd\u4e0d\u9519\uff01","commentsTime":1607667300000,"goodsPic":"commentsgoods\/C9469A76FE6B22F603A5004DFFC30F71.png","goodsId":"106135","sitesId":"2,287,355,447,334,356,420,449,261,83,386,446,228,499","sort":312,"status":1,"updateTime":1607668006000,"creator":"qing.lu","createTime":1607667953000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201803\/16196\/home_16196.jpg?v=1618457947","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201803\/16196\/list_16196.jpg"}},{"18":{"headPic":"commentshead\/20BE15AC2DDBF0CB0AFAC832748BA8FA.png","mobile":"18926774190","commentsContent":"\u597d\u5403\uff01\u800c\u4e14\u66f2\u5947\u6bcf\u4e2a\u90fd\u662f\u5355\u72ec\u7684\u5c0f\u5305\u88c5\uff0c\u8d5e\u8d5e\u8d5e~~","commentsTime":1607569500000,"goodsPic":"commentsgoods\/FCD2592FD2A4B5D1AC217CEEC1EF4060.png","goodsId":"113644","sitesId":"2,287,355,447,334,356,420,449,261,83,386,446,228,499","sort":311,"status":1,"updateTime":1607667383000,"creator":"qing.lu","createTime":1607667383000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202011\/23706\/home_23706.jpg?v=1606392556","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202011\/23706\/list_23706.jpg"},"19":{"headPic":"commentshead\/3F513B380DD9198CA6649F5AD56925F4.png","mobile":"17091236073","commentsContent":"\u5f88\u597d\u5403\uff01\u6bcf\u6b21\u4e70\u8bfa\u5fc3\u86cb\u7cd5\u90fd\u9009\u8fd9\u6b3e\u3002\u751c\u5ea6\u521a\u521a\u597d\u3002\u53e3\u611f\u5f88\u7ef5\u5bc6\uff01\u8d85\u597d\u5403\uff01","commentsTime":1606789200000,"goodsPic":"commentsgoods\/DBDC34B76057BC359CA7C1DD776BF2EA.png","goodsId":"113511","sitesId":"2,287,355,447,334,356,420,449,261,83,386,446,228,499","sort":310,"status":1,"updateTime":1606789580000,"creator":"qing.lu","createTime":1606789580000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202010\/23573\/home_23573.jpg?v=1615449715","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202010\/23573\/list_23573.jpg"},"20":{"headPic":"commentshead\/58B4381571505E1049EBB5DABB8033F4.png","mobile":"17091420156","commentsContent":"\u989c\u503c\u592a\u9ad8\u4e86\uff0c\u6536\u5230\u540e\u5fcd\u4e0d\u4f4f\u62cd\u62cd\u62cd\uff0c\u9178\u751c\u7684\u53e3\u611f\uff0c\u5c42\u6b21\u4e30\u5bcc\uff0c\u559c\u6b22\u559c\u6b22","commentsTime":1605692700000,"goodsPic":"commentsgoods\/671A9892882D619CE2F3AE166840F284.png","goodsId":"113578","sitesId":"2,287,355,447,334,356,420,449,261,83,386,446,228,499","sort":309,"status":1,"updateTime":1605865667000,"creator":"qing.lu","createTime":1605865667000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202011\/23640\/home_23640.jpg?v=1605498179","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202011\/23640\/list_23640.jpg"}},{"21":{"headPic":"commentshead\/E8FBBF174A46B7079DDE1C596F33973A.png","mobile":"13264107553","commentsContent":"\u597d\u597d\u5403\u554a\uff0c\u963f\u534e\u7530\u53e3\u5473\u6d53\u90c1\uff0c\u751c\u800c\u4e0d\u817b\u3002\u9020\u578b\u4e5f\u6709\u8da3\u3002\u4ee5\u540e\u90fd\u8ba4\u51c6\u8bfa\u5fc3\u86cb\u7cd5\u4e86~","commentsTime":1605263700000,"goodsPic":"commentsgoods\/15F6A994A0A8BB4EB71DFB207C4D80C0.png","goodsId":"112580","sitesId":"2,287,355,447,334,356,420,449,261,83,386,446,228,499","sort":308,"status":1,"updateTime":1605264204000,"creator":"qing.lu","createTime":1605264172000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201909\/22642\/home_22642.jpg?v=1571643515","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/201909\/22642\/list_22642.jpg"},"22":{"headPic":"commentshead\/0ABCEC1E1654A3544C166B60E1A902EA.png","mobile":"15864044061","commentsContent":"\u5de7\u514b\u529b\u5473\u9053\u6bd4\u8f83\u6d53\u90c1\uff0c\u5bb6\u91cc\u7684\u5b69\u5b50\u5f88\u559c\u6b22\u5403\uff0c\u4e0b\u6b21\u8fd8\u4f1a\u5728\u8bfa\u5fc3\u4e70\u751f\u65e5\u86cb\u7cd5\uff0c\u63a8\u8350\uff01","commentsTime":1604047800000,"goodsPic":"commentsgoods\/0AAF3C59EF96102414C4E8D6A1F8F61E.png","goodsId":"113499","sitesId":"2,287,355,447,334,356,420,449,261,83,386,446,228,499","sort":305,"status":1,"updateTime":1604049343000,"creator":"qing.lu","createTime":1604049343000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202010\/23561\/home_23561.jpg?v=1603291760","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202010\/23561\/list_23561.jpg"},"23":{"headPic":"commentshead\/4E6C2DC9D57C3F6416CDEE31B5DCC847.png","mobile":"17226747213","commentsContent":"\u8fd9\u6b3e\u8054\u540d\u76d2\u5b50\u86cb\u7cd5\u592a\u7edd\u4e86\uff0c\u51e0\u4e2a\u53e3\u5473\u90fd\u597d\u5403\uff0c\u6211\u5df2\u7ecf\u5168\u5403\u5b8c\u4e86\uff0c\u51c6\u5907\u518d\u4e70\u4e00\u7ec4\uff01","commentsTime":1603764600000,"goodsPic":"commentsgoods\/BBC869F24F1BC241C553F6E32C171431.png","goodsId":"113449","sitesId":"2,287,355,447,334,356,420,449,261,83,386,446,228,499","sort":304,"status":1,"updateTime":1603764796000,"creator":"qing.lu","createTime":1603764796000,"recommendPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202009\/23511\/home_23511.jpg?v=1601187620","goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202009\/23511\/list_23511.gif"}}];
+    var cashBackGoodsList = [{"createTimeStr":"2021-04-10 16:58:57","createTime":1618045137000,"timeStamp":1626924619000,"sortOrder":1000002975,"uid":"114121","goodsName":"\u53cc\u5c42\u751c\u5fc3\u8393\u8393","goodsEnglishName":"","goodsEnglishName1":"","postId":114120,"listPostId":114120,"goodsId":24183,"marketPrice":258,"salePrice":258,"addPoints":0,"goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24183\/list_24183.jpg?v=1618150911","listGoodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24183\/list_24183.jpg?v=1618150911","goodsMoment":0,"inList":1,"promotionInfo":"","middleCategoryId":114,"day10SalesCount":null,"salesCount":null,"midCategoryName":"\u5976\u6cb9\u53e3\u5473","pictureLink":"202104\/24183\/display_24183_24277.jpg","bitMap":0,"displayType":1,"goodsSaleCount":0,"preferentialPrice":null,"isPreferential":0,"isNumberCake":0,"isJarCake":0,"groupAttrId":0,"isConstellation":null,"isMainProduct":0,"h5description":"<div class=\"desc_col\" style=\"width: 100%;\">\r\n<div class=\"imgDesc_wrap\">&nbsp;<\/div>\r\n<div class=\"imgDesc_wrap\"><img src=\"\/postsystem\/docroot\/images\/promotion\/202104\/INS\u5546\u8be6_01.jpg\" alt=\"\" \/><img src=\"\/postsystem\/docroot\/images\/promotion\/202104\/INS\u5546\u8be6_02.jpg\" style=\"font-size: 12px;\" alt=\"\" \/><img src=\"\/postsystem\/docroot\/images\/promotion\/202104\/INS\u5546\u8be6_03.jpg\" alt=\"\" \/><img src=\"\/postsystem\/docroot\/images\/promotion\/202104\/INS\u5546\u8be6_04.jpg\" alt=\"\" \/><img src=\"\/postsystem\/docroot\/images\/promotion\/202104\/INS\u5546\u8be6_05.jpg\" alt=\"\" \/><img src=\"\/postsystem\/docroot\/images\/promotion\/202104\/INS\u5546\u8be6_06.jpg\" alt=\"\" \/><\/div>\r\n<p>&nbsp;<\/p>\r\n<\/div>\r\n<p>&nbsp;<\/p>","preferentialNum":0,"preferentialPriceAha":null,"preferentialLabel":null,"preferentialPriceRed":null,"vipPrice":null,"remind":null,"activityPrice":null,"smallCategoryId":0,"loukouPic":null,"tasteTxt":"\u5976\u6cb9","specTips":"\u5efa\u8bae\u98df\u7528\u4eba\u6570","displaySpec":"2-4\u4eba\u98df","specId":5,"url":"http:\/\/www.lecake.com\/shop\/goods-114121.html","music":1,"passCardPrice":0,"tasteExt":"\u5976\u6cb9\u53e3\u5473","tasteExtId":114,"sweet":"2","marks":["\u751f\u65e5\u4f1a \u9650\u65f675\u6298"],"recommendMarks":["\u70ed\u5356\u65b0\u54c1"],"series":null,"seriesId":null,"additionalIds":null,"productSpecs":[{"title":"\u53cc\u5c42\u751c\u5fc3\u8393\u8393","titleEn":"","pic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24183\/list_24183.jpg","link":"http:\/\/www.lecake.com\/shop\/goods-114121.html","specId":1,"postId":114121,"goodsId":24184,"useFlg":1,"buyFlg":1,"isHide":0,"sendEndDate":null,"enableSaleAmount":100089,"specTips":"\u5efa\u8bae\u98df\u7528\u4eba\u6570","displaySpec":"2-4\u4eba\u98df","goodsCut":0,"salePrice":258,"marketPrice":258,"length":13.5,"width":13.5,"height":9.5,"weight":645,"dinnerware":5,"specialDinnerware":null,"passCardPrice":0,"isPreferential":0,"preferentialNum":0,"preferentialPrice":null,"preferentialPriceAha":null,"vipPrice":null,"activityPrice":null,"buyNotice":"","isWeeklySku":null,"weeklySkuCount":null,"weeklySkuAmount":null,"toastspec":null,"toasttaste":null,"weeklyType":null,"toastCycleList":null,"twoPostId":114120,"detailSpec":"2-4\u4eba\u98df","originalMarketPrice":258,"bookingFlg":0,"booking":null,"pictures":["https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24183\/display_24183_24277.jpg","https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24183\/display_24183_24278.jpg"],"squarePic":["https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24183\/h5display_24183_84299.jpg","https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24183\/h5display_24183_84300.jpg"],"weeklyMainSpecNoBuyUse":false,"isTodayArrived":1}],"mobileGoods":null,"thirdPartyDelivery":0,"buyNotice":"","isStockMilk":null,"milkStock":null,"stockEmpty":null,"SettlementOnly":null,"teNong":null,"aha4Promotion":null,"onlyToDetail":null,"recommendReason":"\u9ad8\u989c\u503cIns\u98ce \u6652\u5708\u65e0\u9e2d\u68a8","dessertShopRecommendReason":"\u9ad8\u989c\u503cIns\u98ce\u5c0f\u53cc\u5c42\u86cb\u7cd5\uff0c\u6652\u5708\u65e0\u9e2d\u68a8\uff0c\u5929\u751f\u840c\u51fa\u5f69\uff0c\u53ef\u7231\u5230\u72af\u89c4\uff01","originalMarketPrice":258,"fontColor":null,"recommendPic":"202104\/24183\/home_24183.jpg?v=1618150911","upText":null,"isNeedUpgrade":0,"isTodayArrived":1,"todayArrivedFlag":0,"canCashBackV2Buy":1,"happyCake":false,"settlementOnly":null},{"createTimeStr":"2021-04-11 22:54:55","createTime":1618152895000,"timeStamp":1627368241000,"sortOrder":1000002995,"uid":"114145","goodsName":"\u828b\u4f60\u5575\u5575","goodsEnglishName":"","goodsEnglishName1":"","postId":114144,"listPostId":114144,"goodsId":24207,"marketPrice":218,"salePrice":218,"addPoints":0,"goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24207\/list_24207.jpg?v=1621995409","listGoodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24207\/list_24207.jpg?v=1621995409","goodsMoment":0,"inList":1,"promotionInfo":"","middleCategoryId":114,"day10SalesCount":null,"salesCount":null,"midCategoryName":"\u5976\u6cb9\u53e3\u5473","pictureLink":"202104\/24207\/display_24207_9675.jpg","bitMap":0,"displayType":1,"goodsSaleCount":0,"preferentialPrice":null,"isPreferential":0,"isNumberCake":0,"isJarCake":0,"groupAttrId":0,"isConstellation":null,"isMainProduct":0,"h5description":"<div class=\"desc_col\" style=\"width: 100%;\">\r\n<div class=\"imgDesc_wrap\"><img src=\"\/postsystem\/docroot\/images\/promotion\/202105\/\u828b\u6ce5\u5575\u5575\u8be6\u60c5\u9875-WAP_01.jpg\" alt=\"\" \/><img src=\"\/postsystem\/docroot\/images\/promotion\/202105\/\u828b\u6ce5\u5575\u5575\u8be6\u60c5\u9875-WAP_02.jpg\" style=\"font-size: 12px;\" alt=\"\" \/><img src=\"\/postsystem\/docroot\/images\/promotion\/202105\/\u828b\u6ce5\u5575\u5575\u8be6\u60c5\u9875-WAP_03.jpg\" alt=\"\" \/><\/div>\r\n<p>&nbsp;<\/p>\r\n<\/div>\r\n<p>&nbsp;<\/p>","preferentialNum":0,"preferentialPriceAha":null,"preferentialLabel":null,"preferentialPriceRed":null,"vipPrice":null,"remind":null,"activityPrice":null,"smallCategoryId":0,"loukouPic":null,"tasteTxt":"\u5976\u6cb9","specTips":"\u5efa\u8bae\u98df\u7528\u4eba\u6570","displaySpec":"2-4\u4eba\u98df","specId":5,"url":"http:\/\/www.lecake.com\/shop\/goods-114145.html","music":1,"passCardPrice":0,"tasteExt":"\u5976\u6cb9\u53e3\u5473","tasteExtId":114,"sweet":"1","marks":["\u751f\u65e5\u4f1a \u9650\u65f675\u6298"],"recommendMarks":["\u4eba\u6c14\u7206\u6b3e"],"series":null,"seriesId":null,"additionalIds":null,"productSpecs":[{"title":"\u828b\u4f60\u5575\u5575","titleEn":"","pic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24207\/list_24207.jpg","link":"http:\/\/www.lecake.com\/shop\/goods-114145.html","specId":1,"postId":114145,"goodsId":24208,"useFlg":1,"buyFlg":1,"isHide":0,"sendEndDate":null,"enableSaleAmount":100137,"specTips":"\u5efa\u8bae\u98df\u7528\u4eba\u6570","displaySpec":"2-4\u4eba\u98df","goodsCut":0,"salePrice":218,"marketPrice":218,"length":14,"width":14,"height":8.5,"weight":585,"dinnerware":5,"specialDinnerware":null,"passCardPrice":0,"isPreferential":0,"preferentialNum":0,"preferentialPrice":null,"preferentialPriceAha":null,"vipPrice":null,"activityPrice":null,"buyNotice":"","isWeeklySku":null,"weeklySkuCount":null,"weeklySkuAmount":null,"toastspec":null,"toasttaste":null,"weeklyType":null,"toastCycleList":null,"twoPostId":114144,"detailSpec":"2-4\u4eba\u98df","originalMarketPrice":218,"bookingFlg":0,"booking":null,"pictures":["https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24207\/display_24207_9675.jpg"],"squarePic":["https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24207\/h5display_24207_97249.jpg"],"weeklyMainSpecNoBuyUse":false,"isTodayArrived":1},{"title":"\u828b\u4f60\u5575\u5575","titleEn":"","pic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24207\/list_24207.jpg","link":"http:\/\/www.lecake.com\/shop\/goods-114146.html","specId":2,"postId":114146,"goodsId":24209,"useFlg":1,"buyFlg":1,"isHide":0,"sendEndDate":null,"enableSaleAmount":100027,"specTips":"\u5efa\u8bae\u98df\u7528\u4eba\u6570","displaySpec":"5-8\u4eba\u98df","goodsCut":0,"salePrice":336,"marketPrice":336,"length":18.5,"width":18.5,"height":8.5,"weight":930,"dinnerware":10,"specialDinnerware":null,"passCardPrice":0,"isPreferential":0,"preferentialNum":0,"preferentialPrice":null,"preferentialPriceAha":null,"vipPrice":null,"activityPrice":null,"buyNotice":"","isWeeklySku":null,"weeklySkuCount":null,"weeklySkuAmount":null,"toastspec":null,"toasttaste":null,"weeklyType":null,"toastCycleList":null,"twoPostId":114144,"detailSpec":"5-8\u4eba\u98df","originalMarketPrice":336,"bookingFlg":0,"booking":null,"pictures":["https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24207\/display_24207_9675.jpg"],"squarePic":["https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202104\/24207\/h5display_24207_97249.jpg"],"weeklyMainSpecNoBuyUse":false,"isTodayArrived":1}],"mobileGoods":null,"thirdPartyDelivery":0,"buyNotice":"","isStockMilk":null,"milkStock":null,"stockEmpty":null,"SettlementOnly":null,"teNong":null,"aha4Promotion":null,"onlyToDetail":null,"recommendReason":"\u201c\u5575\u5575\u201d\u4e00\u4e0b \u828b\u89c1\u6ee1\u5206\u9999\u751c","dessertShopRecommendReason":"\u828b\u6ce5\u63a7\u5fc5\u5165\uff01\u6709\u989c\u53c8\u6709\u6599\uff0c\u201c\u5575\u5575\u201d\u4e00\u4e0b\uff0c\u4e00\u8d77\u828b\u89c1\u6ee1\u5206\u9999\u751c~","originalMarketPrice":218,"fontColor":null,"recommendPic":"202104\/24207\/home_24207.jpg?v=1621995409","upText":null,"isNeedUpgrade":0,"isTodayArrived":1,"todayArrivedFlag":0,"canCashBackV2Buy":1,"happyCake":false,"settlementOnly":null},{"createTimeStr":"2020-06-18 21:56:00","createTime":1592488560000,"timeStamp":1626925515000,"sortOrder":1000002950,"uid":"112957","goodsName":"\u5df4\u65af\u514b\u6d41\u5fc3","goodsEnglishName":"","goodsEnglishName1":"","postId":112956,"listPostId":112956,"goodsId":23019,"marketPrice":218,"salePrice":218,"addPoints":0,"goodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202006\/23019\/list_23019.jpg?v=1594203879","listGoodsMainPic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202006\/23019\/list_23019.jpg?v=1594203879","goodsMoment":0,"inList":1,"promotionInfo":"","middleCategoryId":104,"day10SalesCount":null,"salesCount":null,"midCategoryName":"\u829d\u58eb\u53e3\u5473","pictureLink":"202006\/23019\/display_23019_80172.jpg","bitMap":0,"displayType":1,"goodsSaleCount":0,"preferentialPrice":null,"isPreferential":0,"isNumberCake":0,"isJarCake":0,"groupAttrId":0,"isConstellation":null,"isMainProduct":0,"h5description":"<div class=\"desc_col\" style=\"width: 100%;\">\r\n<div class=\"imgDesc_wrap\"><img src=\"\/postsystem\/docroot\/images\/promotion\/202006\/\u6d41\u5fc3-\u8349\u8393\u5df4\u65af\u514b-wap_01.jpg\" alt=\"\" \/><img src=\"\/postsystem\/docroot\/images\/promotion\/202006\/\u6d41\u5fc3-\u8349\u8393\u5df4\u65af\u514b-wap_02(5).jpg\" style=\"font-size: 12px;\" alt=\"\" \/><\/div>\r\n<p>&nbsp;<\/p>\r\n<\/div>\r\n<div class=\"desc_col\">\r\n<h2>\u5173\u4e8e\u98df\u7528<\/h2>\r\n<div class=\"text_wrap\">\r\n<p>\u53e3\u5473\uff1a\u829d\u58eb\u53e3\u5473<\/p>\r\n<p>\u9002\u5408\u4eba\u7fa4\uff1a\u5927\u4f17<\/p>\r\n<p>\u4fdd\u9c9c\u6761\u4ef6\uff1a\u51b7\u85cf0-4\u6444\u6c0f\u5ea6<\/p>\r\n<p>\u98df\u7528\u65b9\u6cd5\uff1a\u8bf7\u6536\u5230\u86cb\u7cd5\u540e2-3\u5c0f\u65f6\u5185\u98df\u7528<\/p>\r\n<\/div>\r\n<\/div>\r\n<div data-uid=\"106100\" class=\"imgDesc_wrap addCartBtnInDetail\">&nbsp;<\/div>\r\n<p class=\"split\">&nbsp;<\/p>\r\n<div class=\"desc_col part_two text_center\">\r\n<h2>\u5df4\u65af\u514b\u6d41\u5fc3<\/h2>\r\n<p>\u300c\u9ad8\u989c\u503c\u300d\u4e0e\u300c\u5185\u5728\u7f8e\u300d<\/p>\r\n<p>\u8c01\u8bf4\u4e0d\u80fd\u540c\u65f6\u62e5\u6709\uff1f<\/p>\r\n<p>\u5a07\u8273\u8bf1\u4eba\u7684\u8349\u8393\u88c5\u70b9\u4e0b<\/p>\r\n<p>\u6d53\u90c1\u829d\u58eb\u642d\u914d\u5ae9\u6ed1\u6d41\u5fc3<\/p>\r\n<p>\u98ce\u9761ins\u7684\u5df4\u65af\u514b\u86cb\u7cd5<\/p>\r\n<p>\u7ed9\u4f60\u89c6\u89c9\u5473\u89c9\u7684\u53cc\u91cd\u60ca\u8273\u4eab\u53d7<\/p>\r\n<\/div>\r\n<p>&nbsp;<\/p>","preferentialNum":0,"preferentialPriceAha":null,"preferentialLabel":null,"preferentialPriceRed":null,"vipPrice":null,"remind":null,"activityPrice":null,"smallCategoryId":0,"loukouPic":null,"tasteTxt":"\u829d\u58eb","specTips":"\u5efa\u8bae\u98df\u7528\u4eba\u6570","displaySpec":"2-4\u4eba\u98df","specId":5,"url":"http:\/\/www.lecake.com\/shop\/goods-112957.html","music":1,"passCardPrice":0,"tasteExt":"\u829d\u58eb\u53e3\u5473","tasteExtId":104,"sweet":"1","marks":[],"recommendMarks":["\u4eba\u6c14\u7206\u6b3e"],"series":"\u829d\u58eb\u7cfb\u5217","seriesId":1022,"additionalIds":null,"productSpecs":[{"title":"\u5df4\u65af\u514b\u6d41\u5fc3","titleEn":"","pic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202006\/23019\/list_23019.jpg","link":"http:\/\/www.lecake.com\/shop\/goods-112957.html","specId":1,"postId":112957,"goodsId":23020,"useFlg":1,"buyFlg":1,"isHide":0,"sendEndDate":null,"enableSaleAmount":100332,"specTips":"\u5efa\u8bae\u98df\u7528\u4eba\u6570","displaySpec":"2-4\u4eba\u98df","goodsCut":0,"salePrice":218,"marketPrice":218,"length":13,"width":13,"height":6,"weight":454,"dinnerware":5,"specialDinnerware":null,"passCardPrice":0,"isPreferential":0,"preferentialNum":0,"preferentialPrice":null,"preferentialPriceAha":null,"vipPrice":null,"activityPrice":null,"buyNotice":"","isWeeklySku":null,"weeklySkuCount":null,"weeklySkuAmount":null,"toastspec":null,"toasttaste":null,"weeklyType":null,"toastCycleList":null,"twoPostId":112956,"detailSpec":"2-4\u4eba\u98df","originalMarketPrice":218,"bookingFlg":0,"booking":null,"pictures":["https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202006\/23019\/display_23019_80172.jpg"],"squarePic":["https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202006\/23019\/h5display_23019_95796.jpg"],"weeklyMainSpecNoBuyUse":false,"isTodayArrived":1},{"title":"\u5df4\u65af\u514b\u6d41\u5fc3","titleEn":"","pic":"https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202006\/23019\/list_23019.jpg","link":"http:\/\/www.lecake.com\/shop\/goods-112958.html","specId":2,"postId":112958,"goodsId":23021,"useFlg":1,"buyFlg":1,"isHide":0,"sendEndDate":null,"enableSaleAmount":100045,"specTips":"\u5efa\u8bae\u98df\u7528\u4eba\u6570","displaySpec":"5-8\u4eba\u98df","goodsCut":0,"salePrice":336,"marketPrice":336,"length":17.7,"width":17.7,"height":7,"weight":840,"dinnerware":10,"specialDinnerware":null,"passCardPrice":0,"isPreferential":0,"preferentialNum":0,"preferentialPrice":null,"preferentialPriceAha":null,"vipPrice":null,"activityPrice":null,"buyNotice":"","isWeeklySku":null,"weeklySkuCount":null,"weeklySkuAmount":null,"toastspec":null,"toasttaste":null,"weeklyType":null,"toastCycleList":null,"twoPostId":112956,"detailSpec":"5-8\u4eba\u98df","originalMarketPrice":336,"bookingFlg":0,"booking":null,"pictures":["https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202006\/23019\/display_23019_80172.jpg"],"squarePic":["https:\/\/imagecdn.lapetit.cn\/postsystem\/docroot\/images\/goods\/202006\/23019\/h5display_23019_95796.jpg"],"weeklyMainSpecNoBuyUse":false,"isTodayArrived":1}],"mobileGoods":null,"thirdPartyDelivery":0,"buyNotice":"","isStockMilk":null,"milkStock":null,"stockEmpty":null,"SettlementOnly":null,"teNong":null,"aha4Promotion":null,"onlyToDetail":null,"recommendReason":"\u6d41\u5fc3\u8bf1\u60d1\uff01\u98ce\u9761Ins\u7684\u829d\u58eb\u86cb\u7cd5","dessertShopRecommendReason":"\u6d41\u5fc3\u8bf1\u60d1\uff01\u98ce\u9761Ins\u7684\u829d\u58eb\u86cb\u7cd5\uff01\u8d34\u5fc3\u7a00\u5c11\u7cd6\u4f18\u5316\u80a0\u9053\u83cc\u7fa4\uff0c\u8f7b\u8d1f\u62c5\uff0c\u7545\u4eab\u751c\u871c\uff01","originalMarketPrice":218,"fontColor":null,"recommendPic":"202006\/23019\/home_23019.jpg?v=1594203879","upText":null,"isNeedUpgrade":0,"isTodayArrived":1,"todayArrivedFlag":0,"canCashBackV2Buy":1,"happyCake":false,"settlementOnly":null}];
+</script><script>
+    document.write('<div style="display:none;">');
+</script>
+<div>
+    <a href="http://www.lecake.com/SH/category-0-1.html?moment=&taste=,113&spec=">冰淇淋蛋糕</a>
+    <a href="http://www.lecake.com/SH/category-0-1.html?moment=&taste=,114&spec=">奶油蛋糕</a>
+    <a href="http://www.lecake.com/SH/category-0-1.html?moment=&taste=,103&spec=">巧克力蛋糕</a>
+    <a href="http://www.lecake.com/SH/category-0-1.html?moment=&taste=,101&spec=">慕斯蛋糕</a>
+    <a href="http://www.lecake.com/SH/category-0-1.html?moment=&taste=,102&spec=">拿破仑蛋糕</a>
+    <a href="http://www.lecake.com/SH/category-0-1.html?moment=&taste=,104&spec=">芝士蛋糕</a>
+    <a href="http://www.lecake.com/SH/category-0-1.html?moment=&taste=,112&spec=">鲜果蛋糕</a>
+</div>
+<script>
+    document.write('</div>');
+</script><!--领券-->
+<div class="hide" id="linkToActivateVip">
+    <div class="div_img">
+        <img src="//newimgcdn.lecake.com/web//images/vip/globalActivateVip.png?02" class="auto_pos">
+        <a href="javascript:void(0)" class="close_btn"></a>
+    </div>
+</div><script src="//newimgcdn.lecake.com/business/siteList.js?01"></script>
+<script src="//newimgcdn.lecake.com/web/scripts/common/widget.js?v=2021072103"></script>
+<script src="//newimgcdn.lecake.com/business/base.js?v=2021072103"></script>
+<script src="//newimgcdn.lecake.com/web/scripts/common/base.js?v=2021072103"></script>
+<script src="//newimgcdn.lecake.com/web/scripts/lib/jquery.lazyload.min.js"></script>
+<script src="//newimgcdn.lecake.com/web/scripts/lib/swiper.min.js"></script>
+<script src="//newimgcdn.lecake.com/web/scripts/lib/jquery.marquee.js"></script>
+<script src="//newimgcdn.lecake.com/web/scripts/app/home.js?v=2021072103"></script>
+<script src="//newimgcdn.lecake.com/business/home/temporary.js?v=2021072103"></script>
+<script src="//newimgcdn.lecake.com/web/scripts/app/commonList.js?v=2021072103"></script>
+<script src="//newimgcdn.lecake.com/web/scripts/app/passport/commonLogin.js?v=2"></script><script src="//newimgcdn.lecake.com/web/scripts/common/statistics.js?v=2021072103"></script>
+<script>
+    //容联七陌客服
+    (function () {
+        var iframe = document.createElement('iframe');
+        iframe.id = 'qimoCustomService';
+        iframe.setAttribute('style', 'position:fixed;z-index:999999;bottom:0;right:20px;height: 480px;width: 350px;');
+        iframe.className = 'hide';
+        document.body.appendChild(iframe);
+        $('<a href="javascript:void(0);" id="closeCustomerService" class="hide">关闭</a>').appendTo($('body')).css({
+            position: 'fixed',
+            width: '24px',
+            height: '24px',
+            zIndex: 1000000,
+            right: '300px',
+            bottom: '442px',
+            textIndent: '-1000px',
+            overflow: 'hidden',
+            background: 'url("//newimgcdn.lapetit.cn/h5/images/customer/coupons/ico_close.png") no-repeat center',
+            backgroundSize: '100% 100%'
+        }).click(function () {
+            $(this).addClass('hide');
+            $('#qimoCustomService').addClass('hide');
+            $('#fixedFooterOnline').css({
+                transform: 'translate(0,0)',
+                webkitTransform: 'translate(0,0)',
+                msTransform: 'translate(0,0)',
+                mozTransform: 'translate(0,0)'
+            }).find('#footerServiceBtn').removeClass('active');
+        });
+    })();
+</script>
+</body>
+</html>
+

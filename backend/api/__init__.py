@@ -8,6 +8,11 @@
     
     :author: yatming
     :copyright: (c) 2020
-    :date created: 2021/7/28
+    :date created: 2021/8/10
     
 """
+from flask import Blueprint
+
+api_router = Blueprint("/api", __name__)
+
+from . import lecake
