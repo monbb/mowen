@@ -46,3 +46,7 @@ class ShufflingFigureConfig(object):
         db, COL_NAME,
         read_preference=ReadPreference.SECONDARY_PREFERRED
     )
+
+    @classmethod
+    def get_configs(cls):
+        return cls.s_col.find()

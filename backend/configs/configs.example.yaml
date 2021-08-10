@@ -6,3 +6,20 @@ mongo:
   is_replica: 1
   replica: ''
   is_auth: 0
+
+api:
+  api_can_use: true
+  internal_api_can_use: true
+
+app:
+  debug: true
+  port: 66862
+  host: 0.0.0.0
+  salt: ''
+  secret_key: ''
+  aes_cipher_key: ''
+  aes_cipher_iv: ''
+  session_cookie_domain: ''
+
+logger:
+  log_dir: '/var/log/lecake-backend/'
