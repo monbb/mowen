@@ -31,6 +31,6 @@ def index_shuffling_figure_config():
     ok, err_code, configs = logic_get_lecake_shuffling_figure_config()
 
     if not ok:
-        abort(400)
+        return jsonify(), 400
 
     return jsonify(data=configs), 200
