@@ -38,6 +38,13 @@ def register_app_blueprint(app):
 
 app = create_app()
 
+# 解决跨域
+@app.after_request
+def cors(environ):
+    environ.headers['Access-Control-Allow-Origin'] = '*'
+    environ.headers['Access-Control-Allow-Method'] = '*'
+    environ.headers['Access-Control-Allow-Headers'] = 'x-requested-with,content-type'
+    return environ
 
 # ----------- Global Error -------------
 @app.errorhandler(400)
