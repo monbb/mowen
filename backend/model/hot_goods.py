@@ -52,3 +52,7 @@ class HotGoods(object):
         read_preference=ReadPreference.SECONDARY_PREFERRED
     )
 
+    @classmethod
+    def get_goods(cls):
+        return cls.s_col.find()
+
