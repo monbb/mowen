@@ -49,7 +49,7 @@ def index_hot_goods():
     return jsonify(data=goods), 200
 
 
-@api.route('lecake/index/hot-comment', methods=['GET'])
+@api.route('lecake/index/hot-comments', methods=['GET'])
 def index_hot_comment():
 
     start = request.args.get('start', type=int, default=0)
