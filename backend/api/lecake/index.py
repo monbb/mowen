@@ -51,7 +51,14 @@ def index_hot_goods():
 
 @api.route('lecake/index/hot-comment', methods=['GET'])
 def index_hot_comment():
-    ok, err_code, comments = logic_get_lecake_hot_comment()
+
+    start = request.args.get('start', type=int, default=0)
+    end = request.args.get('end', type=int, default=12)
+
+    ok, err_code, comments = logic_get_lecake_hot_comment(
+        start=start,
+        end=end
+    )
 
     if not ok:
         return jsonify(stat=0), 400
