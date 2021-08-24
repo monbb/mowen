@@ -52,5 +52,5 @@ class Comments(object):
 
     @classmethod
     def get_hot_comments(cls, skip=0, limit=0):
-        cur = cls.s_col.find().skip(skip).limit(limit)
+        cur = cls.s_col.find({cls.Field.is_hot: True}).skip(skip).limit(limit)
         return cur
