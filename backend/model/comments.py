@@ -49,3 +49,8 @@ class Comments(object):
         db, COL_NAME,
         read_preference=ReadPreference.SECONDARY_PREFERRED
     )
+
+    @classmethod
+    def get_hot_comments(cls, skip=0, limit=0):
+        cur = cls.s_col.find().skip(skip).limit(limit)
+        return cur

@@ -20,7 +20,7 @@ from werkzeug.exceptions import abort
 from backend.api import api_router as api
 from backend.logic.lecake.index import (
     logic_get_lecake_shuffling_figure_config,
-    logic_get_lecake_hot_goods
+    logic_get_lecake_hot_goods, logic_get_lecake_hot_comment
 )
 
 
@@ -47,3 +47,13 @@ def index_hot_goods():
         return jsonify(stat=0), 400
 
     return jsonify(data=goods), 200
+
+
+@api.route('lecake/index/hot-comment', methods=['GET'])
+def index_hot_comment():
+    ok, err_code, comments = logic_get_lecake_hot_comment()
+
+    if not ok:
+        return jsonify(stat=0), 400
+
+    return jsonify(data=comments), 200
